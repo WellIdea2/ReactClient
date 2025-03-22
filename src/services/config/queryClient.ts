@@ -3,7 +3,6 @@ import { AxiosError } from "axios";
 import { toast } from "react-toastify";
 import { BadRequestBody, NotFoundErrorBody } from "../../types/shared/Errors";
 
-// Defining global error handlers for the query and mutation caches
 export const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
