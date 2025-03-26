@@ -5,9 +5,9 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import UserAuthProvider from "./context/UserAuthProvider.tsx";
-import ToastNotification from "./features/shared/toast/ToastNotification.tsx";
 import "./index.css";
 import { queryClient } from "./services/config/queryClient.ts";
+import ToastNotification from "./features/shared/ToastNotification.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <QueryClientProvider client={queryClient}>

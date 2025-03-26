@@ -1,7 +1,6 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { TOAST_NOTIFICATION_DURATION } from "../../../utils/constants";
-
+import { TOAST_NOTIFICATION_DURATION } from "../../utils/constants";
 
 const ToastNotification = () => {
   return (

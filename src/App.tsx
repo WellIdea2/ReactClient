@@ -5,9 +5,9 @@ import "@fontsource/roboto/700.css";
 
 import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import { ThemeProvider } from "./context/ThemeProvider";
 import InterceptorProvider from "./context/InterceptorProvider";
 import { appRouter } from "./routes/Router";
+import ThemeProvider from "./context/theme/ThemeProvider";
 
 function App() {
   return (
