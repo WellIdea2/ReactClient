@@ -6,7 +6,7 @@ import SideBar from "./SideBar";
 
 function HomePage() {
   const theme = useTheme();
-  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(true);
 
   const handleDrawerToggle = () => {
     setDrawerOpen((prev) => !prev);
@@ -16,7 +16,7 @@ function HomePage() {
     <Box
       sx={{
         display: "flex",
-        height: "100vh",
+        minHeight: "100vh",
         color: theme.palette.text.primary,
         bgcolor: theme.palette.background.default,
       }}

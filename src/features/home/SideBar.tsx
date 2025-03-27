@@ -1,5 +1,7 @@
-import { Dashboard, Settings } from "@mui/icons-material";
+import { Info, Login } from "@mui/icons-material";
 import { Box, Drawer, Typography } from "@mui/material";
+import { useNavigate } from "react-router";
+import { useAuth } from "../../hooks/auth/useAuth";
 
 const drawerWidth = 240;
 
@@ -8,6 +10,9 @@ interface SideBarProps {
 }
 
 function SideBar({ drawerOpen }: SideBarProps) {
+  const navigate = useNavigate();
+  const { isUserAuthenticated } = useAuth();
+
   return (
     <Drawer
       anchor="left"
@@ -26,14 +31,27 @@ function SideBar({ drawerOpen }: SideBarProps) {
       }}
     >
       <Box sx={{ p: 2 }}>
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1, p: 1, cursor: "pointer" }}>
-          <Dashboard />
-          <Typography variant="body1">Dashboard</Typography>
+        {/* Title Section */}
+        <Typography variant="h6" align="center" sx={{ mb: 4 }}>
+          Floxie
+        </Typography>
+        {/* Operations Section */}
+        <Box
+          sx={{ display: "flex", alignItems: "center", gap: 1, p: 1, cursor: "pointer" }}
+          onClick={() => navigate("/nutrition-info")} // Navigate to /nutrition-info
+        >
+          <Info />
+          <Typography variant="body1">Nutrition Info</Typography>
         </Box>
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1, p: 1, cursor: "pointer" }}>
-          <Settings />
-          <Typography variant="body1">Settings</Typography>
-        </Box>
+        {!isUserAuthenticated && (
+          <Box
+            sx={{ display: "flex", alignItems: "center", gap: 1, p: 1, cursor: "pointer" }}
+            onClick={() => navigate("/login")}
+          >
+            <Login />
+            <Typography variant="body1">Login</Typography>
+          </Box>
+        )}
       </Box>
     </Drawer>
   );

@@ -1,0 +1,956 @@
+[
+  {
+    "name": "Choline",
+    "description": "Choline is an essential nutrient that plays a crucial role in various physiological processes in the body. It is a precursor to the neurotransmitter acetylcholine and a component of cell membranes, phospholipids, and lipoproteins.",
+    "functions": {
+      "Neurotransmitter Synthesis": "Choline is a precursor to acetylcholine, a neurotransmitter that plays key roles in memory, cognition, muscle control, and other nervous system functions. Adequate choline levels are necessary for optimal neurotransmitter synthesis and signaling.",
+      "Cell Membrane Structure": "Choline is a component of cell membranes and phospholipids, which are essential for maintaining cell structure, integrity, and fluidity. Choline-containing phospholipids such as phosphatidylcholine are major constituents of cell membranes throughout the body.",
+      "Fat Transport": "Choline is involved in lipid metabolism and fat transport in the body. It facilitates the synthesis and secretion of very low-density lipoproteins (VLDL) in the liver, which transport triglycerides and cholesterol to peripheral tissues for energy production and storage.",
+      "Methylation Reactions": "Choline is a methyl donor in various biochemical pathways, including methylation reactions involved in DNA synthesis, gene expression, and metabolism. It contributes to the synthesis of S-adenosylmethionine (SAMe), a universal methyl donor critical for epigenetic regulation and cellular processes.",
+      "Brain Development": "Choline plays a critical role in brain development and cognitive function, particularly during fetal development and early childhood. Adequate choline intake during pregnancy and infancy is important for proper brain growth, neural tube closure, and memory formation."
+    },
+    "sources": {
+      "Eggs": "Eggs are one of the richest dietary sources of choline, providing high levels of this nutrient in the form of phosphatidylcholine and other choline-containing compounds. Eating eggs can help meet daily choline requirements along with essential nutrients such as protein and vitamins.",
+      "Meat and Poultry": "Meat and poultry, including beef, pork, chicken, and turkey, are good sources of choline. They provide choline along with high-quality protein, vitamins, and minerals, making them nutritious choices for overall health and well-being.",
+      "Seafood": "Seafood, such as fish, shellfish, and crustaceans, contains choline in varying amounts. Fatty fish like salmon, tuna, and mackerel are particularly rich in choline, along with omega-3 fatty acids and other nutrients beneficial for heart and brain health.",
+      "Dairy Products": "Dairy products such as milk, cheese, and yogurt naturally contain small amounts of choline, although they are not significant contributors to overall choline intake in most diets. Low-fat or fat-free dairy options are available for individuals seeking to reduce fat and calorie intake."
+    },
+    "dailyIntake": "The recommended daily intake of choline varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 425-550 milligrams per day for men and 425-450 milligrams per day for women. Pregnant and lactating women may have higher choline requirements.",
+    "deficiency": "Choline deficiency is rare in healthy individuals with balanced diets, as choline is widely available in many foods. However, certain factors such as inadequate dietary intake, genetic variations, and increased choline needs during pregnancy and lactation may increase the risk of deficiency. Symptoms of choline deficiency may include liver dysfunction, muscle damage, memory impairment, and neural tube defects in infants.",
+    "overdose": "Excessive choline intake from dietary sources is rare and usually only occurs from chronic supplementation or consumption of choline-rich foods. However, high doses of choline supplements may cause adverse effects such as gastrointestinal disturbances, fishy body odor, and hypotension.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6482390/"
+    ]
+  },
+  {
+    "name": "Vitamin A",
+    "description": "Vitamin A is a fat-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for vision, immune function, skin health, growth, and development.",
+    "functions": {
+      "Vision": "Vitamin A is necessary for the formation and maintenance of healthy vision, particularly in low-light conditions. It is a component of rhodopsin, a protein in the retina that enables the eyes to detect light and facilitate visual perception. Adequate vitamin A levels are important for night vision, adaptation to darkness, and prevention of vision disorders such as night blindness and dry eyes.",
+      "Immune Function": "Vitamin A is essential for immune system function and defense mechanisms. It supports the development and differentiation of immune cells such as T lymphocytes, B lymphocytes, natural killer (NK) cells, and macrophages. Vitamin A also helps regulate inflammatory responses, pathogen clearance, and antibody production.",
+      "Skin Health": "Vitamin A is important for skin health and integrity, playing a role in the growth, repair, and maintenance of epithelial tissues. It promotes skin cell turnover, collagen synthesis, and wound healing processes. Adequate vitamin A levels are necessary for healthy skin texture, hydration, and protection against environmental damage.",
+      "Growth and Development": "Vitamin A is crucial for growth and development, particularly during fetal development, infancy, and childhood. It supports normal cell growth, differentiation, and proliferation in various tissues and organs, including the lungs, heart, kidneys, and skeletal system. Vitamin A deficiency during pregnancy can lead to developmental abnormalities and birth defects.",
+      "Reproduction": "Vitamin A is involved in reproductive processes and fertility in both males and females. It plays a role in spermatogenesis, oocyte development, and embryonic implantation. Adequate vitamin A levels are important for reproductive health, hormone regulation, and pregnancy outcomes."
+    },
+    "sources": {
+      "Animal Products": "Animal products such as liver, fish liver oil, egg yolks, and dairy products are rich dietary sources of vitamin A. They provide preformed vitamin A in the form of retinol and retinyl esters, which are readily absorbed and utilized by the body.",
+      "Orange and Yellow Fruits": "Orange and yellow fruits such as mangoes, papayas, apricots, and cantaloupes contain beta-carotene, a precursor to vitamin A. Beta-carotene is converted to retinol in the body and serves as a major dietary source of provitamin A carotenoids.",
+      "Dark Green Leafy Vegetables": "Dark green leafy vegetables such as spinach, kale, collard greens, and Swiss chard are rich in beta-carotene and other carotenoids. They provide significant amounts of provitamin A carotenoids along with fiber, vitamins, and minerals.",
+      "Fortified Foods": "Certain foods such as fortified cereals, margarine, and dairy alternatives may be fortified with vitamin A or beta-carotene to enhance their nutritional value. Fortified foods can help increase vitamin A intake, particularly in populations at risk of deficiency."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin A varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 700-900 micrograms of retinol activity equivalents (RAE) per day for men and 600-700 micrograms RAE per day for women. Pregnant and lactating women may have higher vitamin A requirements.",
+    "deficiency": "Vitamin A deficiency is a significant public health concern, particularly in developing countries with limited access to diverse diets. Symptoms of vitamin A deficiency may include night blindness, dry eyes, skin changes, impaired immunity, growth retardation, and reproductive abnormalities. Severe vitamin A deficiency can lead to xerophthalmia, a blinding eye disorder, and increased susceptibility to infections.",
+    "overdose": "Excessive vitamin A intake from supplements or fortified foods can lead to vitamin A toxicity or hypervitaminosis A. Symptoms of vitamin A toxicity may include nausea, vomiting, headache, dizziness, blurred vision, bone pain, liver damage, and birth defects. Chronic overconsumption of vitamin A supplements should be avoided, particularly during pregnancy.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "https://www.mayoclinic.org/drugs-supplements-vitamin-a/art-20365945",
+      "https://www.healthline.com/nutrition/vitamin-a"
+    ]
+  },
+  {
+    "name": "Vitamin B1",
+    "description": "Vitamin B1, also known as thiamine, is a water-soluble vitamin that plays a critical role in various physiological processes in the body. It is essential for energy metabolism, nerve function, and carbohydrate metabolism.",
+    "functions": {
+      "Energy Metabolism": "Vitamin B1 is necessary for the metabolism of carbohydrates, fats, and proteins into energy. It serves as a coenzyme in key enzymatic reactions involved in the conversion of glucose to ATP, the primary energy currency of cells. Thiamine helps generate and transfer energy from nutrients to cells for vital cellular functions.",
+      "Nerve Function": "Vitamin B1 is important for nerve function and transmission of nerve impulses throughout the nervous system. It supports the synthesis of neurotransmitters such as acetylcholine, which are involved in neuronal signaling, muscle contraction, and cognitive processes. Adequate thiamine levels are necessary for optimal nervous system function.",
+      "Carbohydrate Metabolism": "Vitamin B1 plays a key role in carbohydrate metabolism, particularly in the breakdown of glucose for energy production. It is involved in the decarboxylation of pyruvate and alpha-ketoglutarate, intermediates in the citric acid cycle, which generates ATP through oxidative phosphorylation. Thiamine deficiency can impair glucose utilization and lead to energy depletion.",
+      "Enzyme Activation": "Vitamin B1 acts as a cofactor for several enzymes involved in metabolic pathways, including the pyruvate dehydrogenase complex, alpha-ketoglutarate dehydrogenase complex, and transketolase. Thiamine-dependent enzymes catalyze key steps in energy metabolism, biosynthesis, and cellular respiration.",
+      "Stress Response": "Vitamin B1 may play a role in the body's stress response mechanisms by supporting adrenal gland function and cortisol synthesis. Thiamine levels may influence the body's ability to cope with physical and psychological stressors and maintain homeostasis during stressful conditions."
+    },
+    "sources": {
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products are good dietary sources of vitamin B1. They provide thiamine along with dietary fiber, vitamins, and minerals, making them nutritious choices for overall health and well-being.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, contain significant amounts of vitamin B1. They offer thiamine along with protein, fiber, and other nutrients essential for energy metabolism and cellular function.",
+      "Pork and Pork Products": "Pork and pork products, including lean cuts of pork, ham, and bacon, are rich sources of vitamin B1. They provide thiamine in easily absorbable forms, along with high-quality protein, vitamins, and minerals.",
+      "Nuts and Seeds": "Nuts and seeds, including sunflower seeds, flaxseeds, peanuts, and pecans, contain vitamin B1 in varying amounts. They are nutrient-dense sources of thiamine along with healthy fats, protein, and micronutrients."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B1 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 1.1-1.2 milligrams per day for men and 0.9-1.1 milligrams per day for women. Pregnant and lactating women may have slightly higher thiamine requirements.",
+    "deficiency": "Vitamin B1 deficiency, known as thiamine deficiency, can lead to a condition called beriberi, which affects multiple systems in the body. Symptoms of thiamine deficiency may include fatigue, weakness, loss of appetite, irritability, muscle cramps, nerve damage, and cardiovascular problems. Beriberi can manifest as dry beriberi (neurological symptoms) or wet beriberi (cardiovascular symptoms).",
+    "overdose": "Excessive vitamin B1 intake from dietary sources is rare and generally not associated with adverse effects, as thiamine is water-soluble and excess amounts are excreted in urine. However, high-dose thiamine supplements may cause gastrointestinal disturbances such as nausea, vomiting, and diarrhea. Chronic overconsumption of vitamin B1 supplements is uncommon but should be avoided to prevent potential adverse effects.",
+    "res": ["https://chatgpt.com/", "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"]
+  },
+  {
+    "name": "Vitamin B2",
+    "description": "Vitamin B2, also known as riboflavin, is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for energy metabolism, antioxidant defense, and cellular function.",
+    "functions": {
+      "Energy Metabolism": "Vitamin B2 is necessary for the metabolism of carbohydrates, fats, and proteins into energy. It serves as a precursor to coenzymes such as flavin adenine dinucleotide (FAD) and flavin mononucleotide (FMN), which participate in redox reactions and electron transport chain processes. Riboflavin helps generate and transfer energy from nutrients to cells for vital cellular functions.",
+      "Antioxidant Defense": "Vitamin B2 acts as an antioxidant and scavenger of free radicals and reactive oxygen species (ROS) in cells and tissues. It helps protect cells from oxidative damage and inflammation by supporting the activity of antioxidant enzymes such as glutathione reductase and peroxidases. Riboflavin also regenerates other antioxidants such as glutathione and vitamins C and E.",
+      "Cellular Function": "Vitamin B2 plays a role in various cellular processes, including DNA synthesis, repair, and gene expression. It is involved in the metabolism of amino acids, fatty acids, and sterols, as well as the synthesis of neurotransmitters and hormones. Riboflavin contributes to the maintenance of cell structure, integrity, and membrane function.",
+      "Vision Health": "Vitamin B2 may play a role in vision health and eye function, particularly in the maintenance of corneal and retinal tissues. Riboflavin is a component of flavoproteins such as opsin, which are involved in the conversion of light into electrical signals in the retina. Adequate riboflavin levels are important for visual acuity and adaptation to changes in light intensity.",
+      "Skin and Hair Health": "Vitamin B2 is important for skin and hair health, contributing to the maintenance of healthy skin texture, hydration, and integrity. It supports the synthesis of collagen and elastin, structural proteins that provide strength and elasticity to skin tissues. Riboflavin may also play a role in hair growth, pigmentation, and follicle health."
+    },
+    "sources": {
+      "Dairy Products": "Dairy products such as milk, yogurt, and cheese are rich dietary sources of vitamin B2. They provide riboflavin in significant amounts, along with high-quality protein, calcium, and other essential nutrients.",
+      "Meat and Poultry": "Meat and poultry, including beef, pork, chicken, and turkey, are good sources of vitamin B2. They offer riboflavin along with high-quality protein, iron, zinc, and other vitamins and minerals essential for overall health and well-being.",
+      "Eggs": "Eggs are a nutritious source of vitamin B2, providing riboflavin in the yolk along with protein, fat, and essential vitamins and minerals. Consuming eggs can help meet daily riboflavin requirements and support overall nutritional status.",
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, collard greens, and Swiss chard contain vitamin B2 in varying amounts. They are nutrient-dense sources of riboflavin along with dietary fiber, vitamins, and minerals."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B2 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 1.1-1.3 milligrams per day for men and 0.9-1.1 milligrams per day for women. Pregnant and lactating women may have slightly higher riboflavin requirements.",
+    "deficiency": "Vitamin B2 deficiency, known as riboflavin deficiency, is relatively uncommon in developed countries due to the widespread availability of riboflavin-rich foods. However, certain factors such as poor dietary intake, malabsorption disorders, alcoholism, and certain medications may increase the risk of deficiency. Symptoms of riboflavin deficiency may include fatigue, weakness, mouth sores, skin lesions, and vision problems.",
+    "overdose": "Excessive vitamin B2 intake from dietary sources is generally not associated with adverse effects, as riboflavin is water-soluble and excess amounts are excreted in urine. However, high-dose riboflavin supplements may cause harmless discoloration of urine (yellow-orange coloration). Chronic overconsumption of vitamin B2 supplements is uncommon but should be avoided to prevent potential adverse effects.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+    ]
+  },
+  {
+    "name": "Vitamin B3",
+    "description": "Vitamin B3, also known as niacin, is a water-soluble vitamin that plays a critical role in various physiological processes in the body. It is essential for energy metabolism, DNA repair, and cell signaling.",
+    "functions": {
+      "Energy Metabolism": "Vitamin B3 is necessary for the metabolism of carbohydrates, fats, and proteins into energy. It serves as a precursor to coenzymes such as nicotinamide adenine dinucleotide (NAD) and nicotinamide adenine dinucleotide phosphate (NADP), which participate in redox reactions and electron transport chain processes. Niacin helps generate and transfer energy from nutrients to cells for vital cellular functions.",
+      "DNA Repair": "Vitamin B3 plays a role in DNA synthesis, repair, and maintenance, helping ensure the integrity and stability of the genetic material. It participates in enzymatic reactions involved in DNA replication, transcription, and cell division. Niacin may contribute to the prevention of mutations, DNA damage, and carcinogenesis.",
+      "Cell Signaling": "Vitamin B3 is involved in cell signaling pathways and communication mechanisms that regulate cellular processes such as growth, differentiation, and apoptosis. It modulates the activity of enzymes, receptors, and transcription factors involved in intracellular and intercellular signaling cascades. Niacin influences gene expression, protein synthesis, and cell fate determination.",
+      "Lipid Metabolism": "Vitamin B3 affects lipid metabolism and cholesterol synthesis, helping maintain lipid homeostasis and cardiovascular health. It inhibits the synthesis of triglycerides and very low-density lipoproteins (VLDL) in the liver, leading to decreased serum triglyceride levels. Niacin also increases high-density lipoprotein (HDL) cholesterol levels and improves lipoprotein particle size and composition.",
+      "Neurological Function": "Vitamin B3 may play a role in neurological function and brain health, although further research is needed to fully understand its mechanisms of action. Niacin influences neurotransmitter synthesis, nerve signaling, and synaptic plasticity in the central nervous system. Adequate niacin levels are important for cognitive function, mood regulation, and nervous system integrity."
+    },
+    "sources": {
+      "Meat and Poultry": "Meat and poultry, including beef, pork, chicken, and turkey, are rich dietary sources of vitamin B3. They provide niacin in the form of nicotinamide and nicotinic acid, along with high-quality protein, iron, zinc, and other vitamins and minerals essential for overall health and well-being.",
+      "Fish and Seafood": "Fish and seafood, such as salmon, tuna, mackerel, and shellfish, contain significant amounts of vitamin B3. They offer niacin along with omega-3 fatty acids, which have anti-inflammatory and cardiovascular benefits. Consuming fish can help meet daily niacin requirements and support heart health.",
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products are good dietary sources of vitamin B3. They provide niacin along with dietary fiber, vitamins, and minerals, making them nutritious choices for overall health and well-being.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, contain vitamin B3 in varying amounts. They offer niacin along with protein, fiber, and other essential nutrients essential for energy metabolism and cellular function."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B3 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 14-16 milligrams per day for men and 12-14 milligrams per day for women. Pregnant and lactating women may have slightly higher niacin requirements.",
+    "deficiency": "Vitamin B3 deficiency, known as niacin deficiency, can lead to a condition called pellagra, which affects multiple systems in the body. Symptoms of pellagra may include the three Ds: dermatitis (skin rash), diarrhea, and dementia (mental confusion). Additional symptoms may include fatigue, weakness, mouth sores, swollen tongue, and psychiatric disturbances.",
+    "overdose": "Excessive vitamin B3 intake from dietary sources is generally not associated with adverse effects, as niacin is water-soluble and excess amounts are excreted in urine. However, high-dose niacin supplements may cause side effects such as flushing, itching, and liver toxicity. Extended-release niacin supplements may increase the risk of liver damage and other adverse effects.",
+    "res": ["https://chatgpt.com/", "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"]
+  },
+  {
+    "name": "Vitamin B5",
+    "description": "Vitamin B5, also known as pantothenic acid, is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for energy metabolism, hormone synthesis, and cellular function.",
+    "functions": {
+      "Energy Metabolism": "Vitamin B5 is necessary for the metabolism of carbohydrates, fats, and proteins into energy. It serves as a precursor to coenzyme A (CoA), a cofactor involved in the synthesis of acetyl-CoA, a key intermediate in the citric acid cycle and fatty acid oxidation pathways. Pantothenic acid helps generate and transfer energy from nutrients to cells for vital cellular functions.",
+      "Hormone Synthesis": "Vitamin B5 plays a role in hormone synthesis and regulation, particularly in the synthesis of steroid hormones such as cortisol, aldosterone, and sex hormones (estrogen, progesterone, testosterone). Pantothenic acid is a component of CoA, which is required for the synthesis of cholesterol, steroid hormones, and other lipid molecules.",
+      "Cellular Function": "Vitamin B5 is involved in various cellular processes, including DNA synthesis, repair, and cell division. It participates in enzymatic reactions required for the synthesis of fatty acids, phospholipids, and sphingolipids, which are essential components of cell membranes. Pantothenic acid contributes to the maintenance of cell structure, integrity, and membrane function.",
+      "Stress Response": "Vitamin B5 may play a role in the body's stress response mechanisms by supporting adrenal gland function and cortisol synthesis. Pantothenic acid is involved in the synthesis of coenzyme A, which is necessary for the synthesis of cortisol, the primary stress hormone. Adequate levels of vitamin B5 are important for coping with physical and psychological stressors and maintaining homeostasis during stressful conditions."
+    },
+    "sources": {
+      "Animal Products": "Animal products such as meat, poultry, fish, eggs, and dairy products are rich dietary sources of vitamin B5. They provide pantothenic acid in significant amounts, along with high-quality protein, iron, zinc, and other essential nutrients.",
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products are good dietary sources of vitamin B5. They provide pantothenic acid along with dietary fiber, vitamins, and minerals, making them nutritious choices for overall health and well-being.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, contain vitamin B5 in varying amounts. They offer pantothenic acid along with protein, fiber, and other essential nutrients essential for energy metabolism and cellular function.",
+      "Nuts and Seeds": "Nuts and seeds, including sunflower seeds, peanuts, almonds, and walnuts, are nutrient-dense sources of vitamin B5. They provide pantothenic acid along with healthy fats, protein, and micronutrients. Consuming nuts and seeds can help meet daily vitamin B5 requirements and support overall nutritional status."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B5 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 5 milligrams per day. Pregnant and lactating women may have slightly higher pantothenic acid requirements.",
+    "deficiency": "Vitamin B5 deficiency is rare and typically occurs in conjunction with deficiencies of other B vitamins. Symptoms of pantothenic acid deficiency may include fatigue, weakness, irritability, insomnia, abdominal discomfort, and neurological symptoms. Severe deficiency can lead to a condition called paresthesia, characterized by tingling, numbness, and burning sensations in the extremities.",
+    "overdose": "Excessive vitamin B5 intake from dietary sources is generally not associated with adverse effects, as pantothenic acid is water-soluble and excess amounts are excreted in urine. There are no known toxic effects of high-dose vitamin B5 supplementation. However, consuming extremely high doses of pantothenic acid supplements may cause gastrointestinal disturbances such as diarrhea.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/"
+    ]
+  },
+  {
+    "name": "Vitamin B6",
+    "description": "Vitamin B6, also known as pyridoxine, is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for protein metabolism, neurotransmitter synthesis, and immune function.",
+    "functions": {
+      "Protein Metabolism": "Vitamin B6 is necessary for the metabolism of amino acids, the building blocks of proteins. It serves as a cofactor for enzymes involved in the transamination, decarboxylation, and deamination of amino acids. Pyridoxine facilitates the conversion of amino acids into other compounds, such as neurotransmitters, hormones, and energy substrates.",
+      "Neurotransmitter Synthesis": "Vitamin B6 plays a role in neurotransmitter synthesis and regulation, particularly in the synthesis of serotonin, dopamine, norepinephrine, and gamma-aminobutyric acid (GABA). It serves as a cofactor for enzymes involved in the conversion of precursor molecules into active neurotransmitters. Pyridoxine influences mood, behavior, and cognitive function.",
+      "Hemoglobin Synthesis": "Vitamin B6 is involved in hemoglobin synthesis and red blood cell formation, supporting oxygen transport and delivery to tissues. It facilitates the synthesis of heme, the iron-containing component of hemoglobin, and helps regulate iron metabolism. Pyridoxine deficiency may impair hemoglobin production and lead to anemia.",
+      "Immune Function": "Vitamin B6 plays a role in immune function and defense mechanisms against infections and diseases. It supports the proliferation and activity of immune cells such as lymphocytes, monocytes, and macrophages. Pyridoxine enhances antibody production, cytokine secretion, and phagocytosis, contributing to immune surveillance and response.",
+      "Gene Expression": "Vitamin B6 influences gene expression and epigenetic modifications by regulating the activity of transcription factors and histone-modifying enzymes. It modulates the expression of genes involved in metabolism, cell growth, differentiation, and apoptosis. Pyridoxine may affect cell proliferation, differentiation, and tissue development."
+    },
+    "sources": {
+      "Meat and Poultry": "Meat and poultry, including beef, chicken, turkey, and pork, are rich dietary sources of vitamin B6. They provide pyridoxine in significant amounts, along with high-quality protein, iron, zinc, and other essential nutrients.",
+      "Fish and Seafood": "Fish and seafood, such as salmon, tuna, mackerel, and shellfish, contain significant amounts of vitamin B6. They offer pyridoxine along with omega-3 fatty acids, which have anti-inflammatory and cardiovascular benefits. Consuming fish can help meet daily vitamin B6 requirements and support overall health.",
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products are good dietary sources of vitamin B6. They provide pyridoxine along with dietary fiber, vitamins, and minerals, making them nutritious choices for overall health and well-being.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, contain vitamin B6 in varying amounts. They offer pyridoxine along with protein, fiber, and other essential nutrients essential for energy metabolism and cellular function."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B6 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 1.3-1.7 milligrams per day. Pregnant and lactating women may have slightly higher pyridoxine requirements.",
+    "deficiency": "Vitamin B6 deficiency is relatively rare but can occur in individuals with poor dietary intake, malabsorption disorders, alcoholism, or certain medical conditions. Symptoms of pyridoxine deficiency may include fatigue, weakness, irritability, depression, dermatitis, glossitis, and neurological symptoms such as neuropathy and seizures.",
+    "overdose": "Excessive vitamin B6 intake from dietary sources is generally not associated with adverse effects, as pyridoxine is water-soluble and excess amounts are excreted in urine. However, high-dose vitamin B6 supplements may cause neurological side effects such as sensory neuropathy, numbness, and tingling in the extremities. Chronic overconsumption of pyridoxine supplements should be avoided to prevent potential adverse effects.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+    ]
+  },
+  {
+    "name": "Vitamin B7",
+    "description": "Vitamin B7, also known as biotin, is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for metabolism, energy production, and maintaining healthy skin, hair, and nails.",
+    "functions": {
+      "Carbohydrate, Fat, and Protein Metabolism": "Vitamin B7 is necessary for the metabolism of carbohydrates, fats, and proteins into energy. It serves as a cofactor for enzymes involved in key metabolic pathways such as gluconeogenesis, fatty acid synthesis, and amino acid catabolism. Biotin helps convert nutrients into forms that can be utilized by cells for energy production and cellular function.",
+      "Gene Expression": "Vitamin B7 influences gene expression and epigenetic modifications by regulating the activity of transcription factors and histone-modifying enzymes. It modulates the expression of genes involved in metabolism, cell growth, differentiation, and apoptosis. Biotin may affect cell proliferation, differentiation, and tissue development.",
+      "Skin, Hair, and Nail Health": "Vitamin B7 plays a role in maintaining healthy skin, hair, and nails, contributing to their strength, integrity, and appearance. It promotes the synthesis of keratin, a structural protein found in skin, hair, and nails, which helps maintain their texture, elasticity, and moisture balance. Biotin deficiency may lead to skin rashes, hair loss, and brittle nails.",
+      "Neurological Function": "Vitamin B7 may play a role in neurological function and brain health, although further research is needed to fully understand its mechanisms of action. Biotin influences neurotransmitter synthesis, nerve signaling, and synaptic plasticity in the central nervous system. Adequate biotin levels are important for cognitive function, mood regulation, and nervous system integrity."
+    },
+    "sources": {
+      "Eggs": "Eggs are one of the richest dietary sources of vitamin B7, providing biotin in significant amounts, particularly in the egg yolk. Consuming eggs can help meet daily biotin requirements and support overall nutritional status.",
+      "Meat and Poultry": "Meat and poultry, including beef, chicken, turkey, and pork, are rich sources of vitamin B7. They provide biotin along with high-quality protein, iron, zinc, and other essential nutrients essential for overall health and well-being.",
+      "Fish and Seafood": "Fish and seafood, such as salmon, tuna, mackerel, and shellfish, contain significant amounts of vitamin B7. They offer biotin along with omega-3 fatty acids, which have anti-inflammatory and cardiovascular benefits. Consuming fish can help meet daily biotin requirements and support overall health.",
+      "Nuts and Seeds": "Nuts and seeds, including almonds, walnuts, sunflower seeds, and peanuts, are nutrient-dense sources of vitamin B7. They provide biotin along with healthy fats, protein, and micronutrients. Consuming nuts and seeds can help meet daily biotin requirements and support overall nutritional status."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B7 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 30-100 micrograms per day. Pregnant and lactating women may have slightly higher biotin requirements.",
+    "deficiency": "Vitamin B7 deficiency is relatively rare and usually occurs in individuals with poor dietary intake, malabsorption disorders, or certain medical conditions. Symptoms of biotin deficiency may include thinning hair, brittle nails, dry skin, dermatitis, and neurological symptoms such as depression, lethargy, and tingling sensations in the extremities.",
+    "overdose": "Excessive vitamin B7 intake from dietary sources is generally not associated with adverse effects, as biotin is water-soluble and excess amounts are excreted in urine. There are no known toxic effects of high-dose biotin supplementation. However, consuming extremely high doses of biotin supplements may interfere with certain laboratory tests, leading to inaccurate results.",
+    "res": ["https://chatgpt.com/", "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"]
+  },
+  {
+    "name": "Vitamin B9",
+    "description": "Vitamin B9, also known as folate or folic acid (synthetic form), is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for DNA synthesis, cell division, and red blood cell formation.",
+    "functions": {
+      "DNA Synthesis": "Vitamin B9 is necessary for the synthesis and repair of DNA, the genetic material found in all cells. It serves as a cofactor for enzymes involved in the production of nucleotides, the building blocks of DNA. Folate facilitates the proper replication and transmission of genetic information during cell division and growth.",
+      "Cell Division": "Vitamin B9 plays a key role in cell division and proliferation, contributing to tissue growth, development, and repair. It is involved in the formation of new cells, tissues, and organs throughout the body. Folate ensures the proper regulation of cell cycle checkpoints and prevents errors in chromosome segregation.",
+      "Red Blood Cell Formation": "Vitamin B9 is essential for red blood cell formation and maturation, supporting oxygen transport and delivery to tissues. It is involved in the synthesis of hemoglobin, the iron-containing protein in red blood cells that binds and carries oxygen. Folate deficiency can lead to megaloblastic anemia, characterized by large, immature red blood cells.",
+      "Homocysteine Metabolism": "Vitamin B9 is involved in homocysteine metabolism, helping convert homocysteine into methionine, an essential amino acid. Elevated levels of homocysteine in the blood are associated with an increased risk of cardiovascular disease, stroke, and other health problems. Folate supplementation may help lower homocysteine levels and reduce cardiovascular risk."
+    },
+    "sources": {
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, collard greens, and turnip greens are excellent dietary sources of vitamin B9. They provide folate in significant amounts, along with fiber, vitamins, and minerals essential for overall health and well-being.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, contain vitamin B9 in varying amounts. They offer folate along with protein, fiber, and other essential nutrients essential for energy metabolism and cellular function.",
+      "Citrus Fruits and Juices": "Citrus fruits such as oranges, lemons, and grapefruits, as well as their juices, are good sources of vitamin B9. They provide folate along with vitamin C, antioxidants, and other phytonutrients that support immune function and skin health.",
+      "Fortified Foods": "Fortified foods such as breakfast cereals, bread, pasta, and rice are often enriched with synthetic folic acid, the synthetic form of vitamin B9. These fortified foods can help individuals meet their daily folate requirements, especially in populations with limited access to natural food sources."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B9 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 400-600 micrograms per day. Pregnant women and those planning pregnancy may require higher doses of folic acid to prevent neural tube defects in infants.",
+    "deficiency": "Vitamin B9 deficiency is relatively common and can lead to megaloblastic anemia, neural tube defects, and other health problems. Symptoms of folate deficiency may include fatigue, weakness, pale skin, shortness of breath, glossitis, and neural tube defects in newborns. Pregnant women are at increased risk of folate deficiency due to increased demand for folate during pregnancy.",
+    "overdose": "Excessive vitamin B9 intake from fortified foods and supplements is generally not associated with adverse effects, as folate is water-soluble and excess amounts are excreted in urine. However, high-dose folic acid supplementation may mask vitamin B12 deficiency and delay its diagnosis, leading to neurological complications. Pregnant women should avoid excessive folic acid intake to prevent potential harm to the developing fetus.",
+    "res": ["https://chatgpt.com/", "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"]
+  },
+  {
+    "name": "Vitamin B12",
+    "description": "Vitamin B12, also known as cobalamin, is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for DNA synthesis, red blood cell formation, neurological function, and energy metabolism.",
+    "functions": {
+      "DNA Synthesis": "Vitamin B12 is necessary for the synthesis and maintenance of DNA, the genetic material found in all cells. It serves as a cofactor for enzymes involved in the methylation of nucleotides, which is essential for DNA replication, repair, and gene expression. Cobalamin ensures the proper transmission of genetic information during cell division and growth.",
+      "Red Blood Cell Formation": "Vitamin B12 plays a key role in red blood cell formation and maturation, supporting oxygen transport and delivery to tissues. It is involved in the synthesis of hemoglobin, the iron-containing protein in red blood cells that binds and carries oxygen. Cobalamin deficiency can lead to megaloblastic anemia, characterized by large, immature red blood cells.",
+      "Neurological Function": "Vitamin B12 is essential for neurological function and nerve health, playing a role in nerve signaling, myelin sheath formation, and neurotransmitter synthesis. It is involved in the maintenance of nerve cells, axons, and synapses in the brain and peripheral nervous system. Cobalamin deficiency may lead to neurological symptoms such as numbness, tingling, and cognitive impairment.",
+      "Energy Metabolism": "Vitamin B12 participates in energy metabolism by facilitating the conversion of carbohydrates, fats, and proteins into energy. It serves as a cofactor for enzymes involved in the breakdown of amino acids and fatty acids, as well as the citric acid cycle. Cobalamin helps generate and transfer energy from nutrients to cells for vital cellular functions."
+    },
+    "sources": {
+      "Animal Products": "Animal products such as meat, poultry, fish, eggs, and dairy products are the primary dietary sources of vitamin B12. They provide cobalamin in significant amounts, along with high-quality protein, iron, zinc, and other essential nutrients.",
+      "Fortified Foods": "Fortified foods such as breakfast cereals, plant-based milk alternatives, and nutritional yeast are often enriched with synthetic vitamin B12. These fortified foods can help individuals meet their daily cobalamin requirements, especially in populations with limited access to animal-derived foods.",
+      "Supplements": "Vitamin B12 supplements, including oral tablets, sublingual lozenges, and intramuscular injections, are available for individuals with vitamin B12 deficiency or malabsorption disorders. These supplements contain cyanocobalamin or methylcobalamin, the two most common forms of vitamin B12 used in supplements."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin B12 varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 2.4 micrograms per day. Pregnant and lactating women may require slightly higher doses of cobalamin to support fetal development and breastfeeding.",
+    "deficiency": "Vitamin B12 deficiency is relatively common, especially among older adults, vegetarians, vegans, and individuals with gastrointestinal disorders. Symptoms of cobalamin deficiency may include fatigue, weakness, pale skin, shortness of breath, neurological symptoms such as numbness and tingling, and megaloblastic anemia. Untreated deficiency can lead to irreversible neurological damage.",
+    "overdose": "Excessive vitamin B12 intake from dietary sources and supplements is generally not associated with adverse effects, as cobalamin is water-soluble and excess amounts are excreted in urine. There are no known toxic effects of high-dose vitamin B12 supplementation. However, individuals with certain medical conditions such as kidney disease should consult their healthcare provider before taking vitamin B12 supplements.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3257642/"
+    ]
+  },
+  {
+    "name": "Vitamin C",
+    "description": "Vitamin C, also known as ascorbic acid, is a water-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for collagen synthesis, antioxidant defense, immune function, and wound healing.",
+    "functions": {
+      "Collagen Synthesis": "Vitamin C is necessary for the synthesis of collagen, a structural protein found in skin, bones, blood vessels, and connective tissues. It serves as a cofactor for enzymes involved in collagen production, cross-linking, and stabilization. Ascorbic acid plays a key role in maintaining the integrity, elasticity, and strength of connective tissues.",
+      "Antioxidant Defense": "Vitamin C acts as a powerful antioxidant, scavenging free radicals and reactive oxygen species that can damage cells, DNA, and tissues. It helps protect cells from oxidative stress and inflammation, reducing the risk of chronic diseases such as heart disease, cancer, and neurodegenerative disorders. Ascorbic acid regenerates other antioxidants such as vitamin E, glutathione, and coenzyme Q10.",
+      "Immune Function": "Vitamin C plays a critical role in immune function and defense mechanisms against infections and diseases. It supports the proliferation and activity of immune cells such as lymphocytes, neutrophils, and macrophages. Ascorbic acid enhances antibody production, cytokine secretion, and phagocytosis, contributing to immune surveillance and response.",
+      "Wound Healing": "Vitamin C is essential for wound healing and tissue repair processes. It stimulates the production of collagen and other extracellular matrix components necessary for the formation of new tissues. Ascorbic acid enhances fibroblast proliferation, angiogenesis, and epithelialization, accelerating the healing of cuts, bruises, burns, and surgical incisions."
+    },
+    "sources": {
+      "Citrus Fruits": "Citrus fruits such as oranges, lemons, grapefruits, and limes are well-known dietary sources of vitamin C. They provide ascorbic acid in significant amounts, along with fiber, vitamins, and minerals essential for overall health and well-being.",
+      "Berries": "Berries such as strawberries, raspberries, blueberries, and blackberries are rich sources of vitamin C. They offer ascorbic acid along with antioxidants, flavonoids, and phytonutrients that support immune function and cardiovascular health.",
+      "Bell Peppers": "Bell peppers, particularly red and green varieties, are excellent dietary sources of vitamin C. They provide ascorbic acid along with other nutrients such as vitamin A, vitamin K, and potassium. Consuming bell peppers can help meet daily vitamin C requirements and support overall nutritional status.",
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, Swiss chard, and broccoli are nutrient-dense sources of vitamin C. They offer ascorbic acid along with fiber, vitamins, and minerals essential for energy metabolism and cellular function."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin C varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 75-90 milligrams per day for women and 90-120 milligrams per day for men. Pregnant and lactating women may require higher doses of ascorbic acid to support fetal development and breastfeeding.",
+    "deficiency": "Vitamin C deficiency, also known as scurvy, is relatively rare but can occur in individuals with poor dietary intake, malabsorption disorders, or certain medical conditions. Symptoms of vitamin C deficiency may include fatigue, weakness, swollen or bleeding gums, joint pain, and delayed wound healing. Severe deficiency can lead to scurvy, characterized by bleeding gums, skin lesions, anemia, and tooth loss.",
+    "overdose": "Excessive vitamin C intake from dietary sources and supplements is generally well-tolerated, as ascorbic acid is water-soluble and excess amounts are excreted in urine. However, high-dose vitamin C supplementation may cause gastrointestinal side effects such as diarrhea, nausea, and abdominal cramps in some individuals. Individuals with certain medical conditions such as kidney stones should consult their healthcare provider before taking high-dose vitamin C supplements.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5707683/"
+    ]
+  },
+  {
+    "name": "Vitamin D",
+    "description": "Vitamin D is a fat-soluble vitamin that plays a crucial role in various physiological processes in the body. It is essential for calcium and phosphate metabolism, bone health, immune function, and overall well-being.",
+    "functions": {
+      "Calcium and Phosphate Metabolism": "Vitamin D regulates calcium and phosphate metabolism by enhancing their absorption from the intestine and promoting their reabsorption in the kidneys. It helps maintain adequate serum calcium and phosphate levels, which are essential for bone mineralization, muscle function, and nerve transmission. Vitamin D also regulates the expression of genes involved in calcium and phosphate homeostasis.",
+      "Bone Health": "Vitamin D is essential for bone health and the prevention of bone-related disorders such as rickets in children and osteomalacia in adults. It promotes the mineralization of bone matrix and the formation of strong, dense bones. Vitamin D deficiency can lead to impaired bone mineralization, weak and brittle bones, and an increased risk of fractures.",
+      "Immune Function": "Vitamin D plays a role in immune function and defense mechanisms against infections and diseases. It modulates the activity of immune cells such as T cells, B cells, and macrophages, enhancing their ability to recognize and eliminate pathogens. Vitamin D also regulates the production of antimicrobial peptides and cytokines, contributing to immune surveillance and response.",
+      "Cellular Differentiation and Proliferation": "Vitamin D regulates cellular differentiation and proliferation processes in various tissues and organs throughout the body. It influences the expression of genes involved in cell growth, differentiation, and apoptosis, affecting tissue development, repair, and regeneration. Vitamin D may play a role in the prevention of cancer, cardiovascular disease, and other chronic conditions."
+    },
+    "sources": {
+      "Sunlight Exposure": "Sunlight exposure is the primary source of vitamin D synthesis in the body. When the skin is exposed to ultraviolet B (UVB) radiation from sunlight, it converts 7-dehydrocholesterol into previtamin D3, which is then converted into vitamin D3 in the liver and kidneys. Spending time outdoors, particularly during midday hours, can help maintain adequate vitamin D levels.",
+      "Fatty Fish": "Fatty fish such as salmon, mackerel, tuna, and sardines are excellent dietary sources of vitamin D. They provide vitamin D3 (cholecalciferol) in significant amounts, along with omega-3 fatty acids, protein, and other essential nutrients. Consuming fatty fish regularly can help meet vitamin D requirements and support overall nutritional status.",
+      "Fortified Foods": "Fortified foods such as milk, orange juice, breakfast cereals, and yogurt are often enriched with vitamin D. These fortified foods can help individuals meet their daily vitamin D requirements, especially in populations with limited sun exposure or dietary intake of vitamin D-rich foods.",
+      "Supplements": "Vitamin D supplements, including vitamin D2 (ergocalciferol) and vitamin D3 (cholecalciferol), are available for individuals with vitamin D deficiency or inadequate sun exposure. These supplements can help maintain optimal vitamin D levels and support overall health and well-being."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin D varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 600-800 international units (IU) per day. However, higher doses may be needed for individuals at risk of vitamin D deficiency, such as older adults, individuals with limited sun exposure, and those with malabsorption disorders.",
+    "deficiency": "Vitamin D deficiency is relatively common, especially among older adults, individuals with dark skin, and those with limited sun exposure. Symptoms of vitamin D deficiency may include bone pain, muscle weakness, fatigue, mood changes, and an increased risk of fractures. Severe deficiency can lead to rickets in children and osteomalacia in adults.",
+    "overdose": "Excessive vitamin D intake from dietary sources and supplements can lead to vitamin D toxicity, also known as hypervitaminosis D. Symptoms of vitamin D toxicity may include nausea, vomiting, constipation, weakness, and kidney stones. Long-term excess intake of vitamin D can cause hypercalcemia, a condition characterized by high levels of calcium in the blood, which can lead to kidney damage and other health problems.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3356951/"
+    ]
+  },
+  {
+    "name": "Vitamin E",
+    "description": "Vitamin E is a fat-soluble vitamin and antioxidant that plays a crucial role in various physiological processes in the body. It is essential for immune function, cell signaling, gene expression, and protection against oxidative stress and inflammation.",
+    "functions": {
+      "Antioxidant Defense": "Vitamin E acts as a potent antioxidant, scavenging free radicals and reactive oxygen species that can damage cells, DNA, and tissues. It helps protect cell membranes, lipids, and proteins from oxidative damage, reducing the risk of chronic diseases such as heart disease, cancer, and neurodegenerative disorders. Vitamin E regenerates other antioxidants such as vitamin C, glutathione, and coenzyme Q10.",
+      "Immune Function": "Vitamin E plays a role in immune function and defense mechanisms against infections and diseases. It modulates the activity of immune cells such as T cells, B cells, and macrophages, enhancing their ability to recognize and eliminate pathogens. Vitamin E also regulates the production of cytokines and inflammatory mediators, contributing to immune surveillance and response.",
+      "Cell Signaling and Gene Expression": "Vitamin E is involved in cell signaling pathways and gene expression processes that regulate cell growth, differentiation, and apoptosis. It influences the activity of enzymes, transcription factors, and signaling molecules involved in cellular homeostasis, proliferation, and survival. Vitamin E may play a role in the prevention of cancer, cardiovascular disease, and other chronic conditions.",
+      "Neurological Function": "Vitamin E is essential for neurological function and nerve health, playing a role in nerve signaling, myelin sheath formation, and neurotransmitter synthesis. It protects nerve cells from oxidative damage and inflammation, maintaining optimal cognitive function and mental health. Vitamin E deficiency may contribute to neurological disorders such as Alzheimer's disease and Parkinson's disease."
+    },
+    "sources": {
+      "Nuts and Seeds": "Nuts and seeds such as almonds, sunflower seeds, hazelnuts, and peanuts are excellent dietary sources of vitamin E. They provide alpha-tocopherol, the most biologically active form of vitamin E, along with unsaturated fats, fiber, and other essential nutrients. Consuming nuts and seeds regularly can help meet daily vitamin E requirements and support overall nutritional status.",
+      "Vegetable Oils": "Vegetable oils such as sunflower oil, safflower oil, wheat germ oil, and olive oil are rich sources of vitamin E. They provide alpha-tocopherol and other tocopherol isoforms, which serve as antioxidants and contribute to the stability of cell membranes and lipid metabolism. Using vegetable oils in cooking and salad dressings can increase vitamin E intake.",
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, Swiss chard, and broccoli are nutrient-dense sources of vitamin E. They offer alpha-tocopherol and other phytonutrients such as carotenoids, flavonoids, and polyphenols that have antioxidant and anti-inflammatory properties. Including leafy greens in the diet can help boost vitamin E levels and promote overall health.",
+      "Fortified Foods": "Fortified foods such as breakfast cereals, margarine, and fruit juices are often enriched with synthetic vitamin E (alpha-tocopherol acetate). These fortified foods can help individuals meet their daily vitamin E requirements, especially in populations with limited access to natural food sources."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin E varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 15 milligrams of alpha-tocopherol per day. Pregnant and lactating women may require slightly higher doses of vitamin E to support fetal development and breastfeeding.",
+    "deficiency": "Vitamin E deficiency is relatively rare but can occur in individuals with poor dietary intake, malabsorption disorders, or certain medical conditions. Symptoms of vitamin E deficiency may include muscle weakness, vision problems, impaired immune function, and neurological symptoms such as neuropathy and ataxia. Severe deficiency can lead to neurological disorders and reproductive problems.",
+    "overdose": "Excessive vitamin E intake from dietary sources and supplements can lead to vitamin E toxicity, also known as hypervitaminosis E. Symptoms of vitamin E toxicity may include nausea, diarrhea, abdominal cramps, fatigue, and hemorrhage. Long-term excess intake of vitamin E can interfere with blood clotting and increase the risk of bleeding disorders.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3997530/"
+    ]
+  },
+  {
+    "name": "Vitamin K",
+    "description": "Vitamin K is a fat-soluble vitamin that plays a crucial role in blood clotting, bone metabolism, and cardiovascular health. There are two primary forms of vitamin K: vitamin K1 (phylloquinone) and vitamin K2 (menaquinone).",
+    "functions": {
+      "Blood Clotting": "Vitamin K is essential for blood clotting and coagulation processes in the body. It serves as a cofactor for enzymes involved in the synthesis of clotting factors, particularly prothrombin (factor II), which is necessary for the formation of fibrin clots. Vitamin K ensures the proper activation and function of clotting proteins, preventing excessive bleeding and hemorrhage.",
+      "Bone Metabolism": "Vitamin K plays a role in bone metabolism and mineralization, contributing to bone health and strength. It facilitates the incorporation of calcium into bone matrix proteins such as osteocalcin and matrix Gla protein (MGP), which regulate bone formation, remodeling, and mineralization. Vitamin K deficiency can lead to impaired bone mineralization and an increased risk of osteoporosis and fractures.",
+      "Cardiovascular Health": "Vitamin K may have cardioprotective effects and support cardiovascular health by regulating vascular calcification and arterial stiffness. It activates matrix Gla protein (MGP), which inhibits the deposition of calcium in arterial walls and soft tissues, preventing the development of atherosclerosis and cardiovascular disease. Adequate vitamin K intake may help reduce the risk of coronary artery calcification and cardiovascular events."
+    },
+    "sources": {
+      "Leafy Green Vegetables": "Leafy green vegetables such as kale, spinach, collard greens, and Swiss chard are rich dietary sources of vitamin K1 (phylloquinone). They provide phylloquinone in significant amounts, along with other nutrients such as fiber, vitamins, and minerals essential for overall health and well-being.",
+      "Cruciferous Vegetables": "Cruciferous vegetables such as broccoli, Brussels sprouts, cabbage, and cauliflower contain vitamin K1 (phylloquinone) as well. These vegetables offer phylloquinone along with glucosinolates, sulforaphane, and other bioactive compounds that have anticancer and anti-inflammatory properties. Including cruciferous vegetables in the diet can help boost vitamin K intake.",
+      "Fermented Foods": "Fermented foods such as natto, a traditional Japanese dish made from fermented soybeans, are rich dietary sources of vitamin K2 (menaquinone). Natto provides menaquinone-7 (MK-7), a long-chain form of vitamin K2 that has greater bioavailability and longevity in the body compared to other forms. Consuming fermented foods can help increase vitamin K2 levels and support overall nutritional status.",
+      "Animal Products": "Animal products such as meat, eggs, and dairy also contain small amounts of vitamin K2 (menaquinone). These foods provide menaquinone in various forms, contributing to overall vitamin K intake. Including a variety of animal products in the diet can help ensure adequate vitamin K2 intake."
+    },
+    "dailyIntake": "The recommended daily intake of vitamin K varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 90-120 micrograms of vitamin K1 (phylloquinone) per day. Adequate vitamin K2 (menaquinone) intake is less well-established but may range from 50-200 micrograms per day.",
+    "deficiency": "Vitamin K deficiency is relatively rare but can occur in individuals with poor dietary intake, malabsorption disorders, or certain medical conditions. Symptoms of vitamin K deficiency may include easy bruising, excessive bleeding, nosebleeds, and gastrointestinal bleeding. Severe deficiency can lead to hemorrhagic disorders and impaired wound healing.",
+    "overdose": "Excessive vitamin K intake from dietary sources and supplements is generally not associated with adverse effects, as vitamin K is well-tolerated and has a low risk of toxicity. There are no established upper intake levels (ULs) for vitamin K, and toxicity is rare even with high-dose supplementation. However, individuals taking anticoagulant medications such as warfarin should consult their healthcare provider before making significant changes to their vitamin K intake.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+    ]
+  },
+  {
+    "name": "Calcium",
+    "description": "Calcium is an essential mineral that plays a crucial role in various physiological processes in the body. It is vital for maintaining strong bones and teeth, muscle function, nerve transmission, blood clotting, and hormone secretion.",
+    "functions": {
+      "Bone and Teeth Structure": "Calcium is a major component of bones and teeth, providing strength and structure. It contributes to bone density and helps prevent osteoporosis and dental issues.",
+      "Muscle Function": "Calcium is necessary for muscle contraction and relaxation. It regulates muscle tone, coordination, and movement.",
+      "Nerve Transmission": "Calcium ions play a key role in transmitting nerve impulses throughout the body. They facilitate communication between nerve cells and enable various sensory and motor functions.",
+      "Blood Clotting": "Calcium is essential for blood clotting (coagulation). It helps convert prothrombin into thrombin, which is necessary for the formation of blood clots to prevent excessive bleeding.",
+      "Hormone Secretion": "Calcium is involved in the secretion of several hormones, including insulin, adrenaline, and parathyroid hormone. It helps regulate hormone release and function.",
+      "Cell Signaling": "Calcium ions serve as second messengers in cell signaling pathways, regulating cellular processes such as gene expression, enzyme activity, and cell proliferation."
+    },
+    "sources": {
+      "Dairy Products": "Dairy products like milk, yogurt, and cheese are rich sources of calcium. They provide easily absorbable calcium along with other essential nutrients.",
+      "Leafy Green Vegetables": "Dark green leafy vegetables such as kale, spinach, collard greens, and broccoli contain significant amounts of calcium. However, the absorption of calcium from plant-based sources may be lower due to the presence of oxalates and phytates.",
+      "Fortified Foods": "Certain foods are fortified with calcium to enhance their nutritional value. These include fortified plant-based milks (e.g., almond milk, soy milk), orange juice, cereals, and tofu.",
+      "Fish with Edible Bones": "Canned fish with edible bones, such as sardines and salmon, are good sources of calcium. Consuming these fish provides both calcium and omega-3 fatty acids."
+    },
+    "dailyIntake": "The recommended daily intake of calcium varies by age, sex, and life stage. For adults aged 19-50, the recommended amount is 1000 mg per day. Women over 50 and men over 70 require 1200 mg per day. Adolescents, pregnant women, and breastfeeding women also have higher calcium needs.",
+    "deficiency": "Calcium deficiency can lead to health issues such as osteoporosis, characterized by weak and brittle bones, and osteopenia, a precursor to osteoporosis. In children, calcium deficiency can impair bone development and lead to rickets, a condition characterized by soft and weak bones.",
+    "overdose": "Excessive intake of calcium can lead to hypercalcemia, a condition characterized by high levels of calcium in the blood. Symptoms of calcium overdose may include nausea, vomiting, constipation, abdominal pain, excessive thirst, frequent urination, muscle weakness, confusion, and fatigue. Long-term excessive intake of calcium supplements can increase the risk of kidney stones and cardiovascular problems. It's important to consult a healthcare professional before taking high doses of calcium supplements.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "https://chatgpt.com/",
+      "https://www.mayoclinic.org/drugs-supplements-calcium/art-20363792",
+      "https://www.healthline.com/nutrition/15-calcium-rich-foods"
+    ]
+  },
+  {
+    "name": "Chloride",
+    "description": "Chloride is an essential mineral and electrolyte that plays a crucial role in maintaining fluid balance, acid-base balance, and cellular function in the body.",
+    "functions": {
+      "Fluid Balance": "Chloride ions help maintain proper hydration and fluid balance within cells and tissues. They contribute to osmotic pressure and regulate the movement of water between compartments.",
+      "Acid-Base Balance": "Chloride ions, along with sodium and bicarbonate, participate in the regulation of pH levels in the body. They help maintain the acid-base balance of bodily fluids, ensuring optimal physiological function.",
+      "Digestion": "Chloride ions are involved in the production of hydrochloric acid (HCl) in the stomach, which is necessary for the digestion and breakdown of food. HCl helps activate digestive enzymes and facilitates nutrient absorption in the intestines.",
+      "Nerve Function": "Chloride ions play a role in nerve transmission and muscle contraction. They help generate action potentials and electrical signals in neurons, allowing for communication between cells and tissues.",
+      "Immune Response": "Chloride ions are involved in the immune response and defense mechanisms of the body. They help regulate the activity of immune cells and facilitate the transport of antibodies and immune factors."
+    },
+    "sources": {
+      "Table Salt (Sodium Chloride)": "The primary dietary source of chloride is table salt, or sodium chloride. Salt is commonly used as a seasoning and food preservative in various cuisines worldwide.",
+      "Processed Foods": "Many processed and packaged foods contain added salt (sodium chloride) as a flavor enhancer and preservative. These foods include canned soups, sauces, condiments, snacks, and convenience meals.",
+      "Dairy Products": "Some dairy products, such as cheese and yogurt, naturally contain chloride. However, their contribution to overall chloride intake is relatively small compared to salt and processed foods.",
+      "Seafood": "Seafood, particularly ocean fish and shellfish, contains chloride as part of their natural composition. Consuming seafood can contribute to chloride intake along with other essential nutrients."
+    },
+    "dailyIntake": "The recommended daily intake of chloride varies depending on factors such as age, sex, and overall health status. However, most adults require approximately 2300-2400 milligrams of chloride per day, which is equivalent to the amount found in about 1 teaspoon of salt.",
+    "deficiency": "Chloride deficiency is rare and usually occurs in conjunction with other electrolyte imbalances, such as hyponatremia (low sodium levels) or hypokalemia (low potassium levels). Symptoms of chloride deficiency may include dehydration, muscle weakness, fatigue, and irregular heartbeat.",
+    "overdose": "Excessive intake of chloride, primarily from high dietary salt intake, can lead to health issues such as hypertension (high blood pressure), fluid retention, and electrolyte imbalances. Individuals with certain medical conditions, such as kidney disease or heart failure, may be more sensitive to the effects of excess chloride.",
+    "res": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK545153/",
+      "https://chatgpt.com/",
+      "https://medlineplus.gov/ency/article/002417.htm"
+    ]
+  },
+  {
+    "name": "Chromium",
+    "description": "Chromium is an essential trace mineral that plays a role in various physiological processes in the body. It is involved in carbohydrate, fat, and protein metabolism, as well as insulin sensitivity and glucose regulation.",
+    "functions": {
+      "Glucose Metabolism": "Chromium helps enhance the action of insulin, a hormone that regulates blood sugar levels. It facilitates the uptake of glucose into cells, where it is used for energy production and storage.",
+      "Insulin Sensitivity": "Chromium is involved in improving insulin sensitivity and reducing insulin resistance. It helps cells respond more effectively to insulin, leading to better glucose uptake and utilization.",
+      "Carbohydrate, Fat, and Protein Metabolism": "Chromium plays a role in the metabolism of carbohydrates, fats, and proteins, helping convert these macronutrients into energy and building blocks for cellular processes.",
+      "Cholesterol and Lipid Levels": "Some research suggests that chromium supplementation may help lower total cholesterol and triglyceride levels, although the evidence is not conclusive. Chromium may also have a role in improving lipid profiles and reducing cardiovascular risk factors.",
+      "Muscle Mass and Body Composition": "Chromium supplementation has been studied for its potential effects on muscle mass, fat loss, and body composition. Some research suggests that chromium may help preserve lean body mass and promote weight loss, particularly in combination with exercise and a balanced diet."
+    },
+    "sources": {
+      "Whole Grains": "Whole grains, such as oats, barley, brown rice, and whole wheat products, are good dietary sources of chromium. They provide not only chromium but also other essential nutrients and fiber.",
+      "Vegetables": "Some vegetables, including broccoli, green beans, potatoes, and tomatoes, contain moderate amounts of chromium. Consuming a variety of vegetables can contribute to overall chromium intake.",
+      "Meats and Poultry": "Meats and poultry, such as beef, chicken, and turkey, contain small amounts of chromium. However, the chromium content of animal-based foods varies depending on factors like animal diet and processing methods.",
+      "Nuts and Seeds": "Nuts and seeds, such as almonds, Brazil nuts, and sunflower seeds, are rich sources of chromium. They provide not only chromium but also healthy fats, protein, and other micronutrients."
+    },
+    "dailyIntake": "The recommended daily intake of chromium varies by age, sex, and individual health status. However, most adults require approximately 20-35 micrograms of chromium per day. Pregnant and lactating women may have higher chromium needs.",
+    "deficiency": "Chromium deficiency is rare in healthy individuals and is primarily associated with impaired glucose tolerance, insulin resistance, and elevated blood sugar levels. Symptoms of chromium deficiency may include fatigue, weight changes, and poor glucose control.",
+    "overdose": "Excessive intake of chromium supplements may lead to adverse effects such as gastrointestinal upset, kidney damage, and changes in liver function. It is important to avoid megadoses of chromium and to obtain chromium from dietary sources whenever possible.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "https://chatgpt.com/",
+      "https://www.healthline.com/nutrition/chromium-picolinate"
+    ]
+  },
+  {
+    "name": "Copper",
+    "description": "Copper is an essential trace mineral that plays a critical role in various physiological processes in the body. It is involved in energy production, connective tissue formation, iron metabolism, and antioxidant defense.",
+    "functions": {
+      "Energy Production": "Copper is a cofactor for several enzymes involved in cellular respiration and energy production. It helps convert nutrients such as carbohydrates, fats, and proteins into usable energy (ATP) for cellular activities.",
+      "Connective Tissue Formation": "Copper is necessary for the synthesis of collagen and elastin, two proteins that are essential for the formation and maintenance of connective tissues, including skin, bones, cartilage, and blood vessels.",
+      "Iron Metabolism": "Copper plays a role in iron metabolism by facilitating the absorption of dietary iron from the intestines and its release from storage sites (e.g., liver, spleen). It helps convert ferrous iron (Fe2+) to ferric iron (Fe3+), which is essential for iron transport and utilization.",
+      "Neurotransmitter Synthesis": "Copper is involved in the synthesis of neurotransmitters such as dopamine, norepinephrine, and epinephrine. It plays a role in neurotransmitter metabolism and signaling within the nervous system, affecting mood, cognition, and behavior.",
+      "Antioxidant Defense": "Copper serves as a cofactor for superoxide dismutase (SOD), an antioxidant enzyme that helps neutralize harmful free radicals and reactive oxygen species (ROS). It helps protect cells and tissues from oxidative damage and supports overall antioxidant defense mechanisms."
+    },
+    "sources": {
+      "Shellfish and Organ Meats": "Shellfish, particularly oysters, are one of the richest dietary sources of copper. Organ meats such as liver and kidneys also contain significant amounts of copper, along with other essential nutrients.",
+      "Nuts and Seeds": "Nuts and seeds, including almonds, cashews, sesame seeds, and pumpkin seeds, are good sources of copper. They provide not only copper but also healthy fats, protein, and other micronutrients.",
+      "Whole Grains": "Whole grains such as wheat, barley, oats, and rice contain moderate amounts of copper. Consuming a variety of whole grains can contribute to overall copper intake along with other essential nutrients.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, and soybeans, are rich sources of copper. They provide not only copper but also dietary fiber, protein, and other vitamins and minerals."
+    },
+    "dailyIntake": "The recommended daily intake of copper varies by age, sex, and individual health status. However, most adults require approximately 900 micrograms of copper per day. Pregnant and lactating women may have higher copper needs.",
+    "deficiency": "Copper deficiency is rare in healthy individuals and is primarily associated with inadequate dietary intake, malabsorption disorders, or excessive zinc supplementation. Symptoms of copper deficiency may include anemia, bone abnormalities, impaired immune function, and neurological disorders.",
+    "overdose": "Excessive intake of copper supplements or ingestion of contaminated food or water may lead to copper toxicity, known as copper poisoning. Symptoms of copper toxicity may include gastrointestinal upset, liver damage, kidney failure, and neurological symptoms.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "https://chatgpt.com/",
+      "https://www.mayoclinic.org/drugs-supplements-copper/art-20345491",
+      "https://www.healthline.com/nutrition/copper-deficiency-symptoms"
+    ]
+  },
+  {
+    "name": "Fluoride",
+    "description": "Fluoride is a naturally occurring mineral found in soil, water, and various foods. It is also added to drinking water, toothpaste, and dental products for its dental health benefits.",
+    "functions": {
+      "Dental Health": "Fluoride helps prevent tooth decay and cavities by strengthening tooth enamel, the outer protective layer of teeth. It promotes remineralization of enamel and inhibits the growth of bacteria that cause dental plaque and acid erosion.",
+      "Bone Health": "Fluoride plays a role in maintaining bone density and strength, although its effects on bone health are primarily observed during periods of bone formation and growth, such as childhood and adolescence.",
+      "Topical Application": "Fluoride is applied topically to the surface of teeth through toothpaste, mouthwash, and professional dental treatments (e.g., fluoride varnish, fluoride rinse). Topical fluoride helps protect teeth against acid attacks and promotes enamel remineralization.",
+      "Systemic Absorption": "In addition to topical application, fluoride can be absorbed systemically through ingestion of fluoridated water and foods. Systemic fluoride incorporation into developing teeth during childhood can enhance enamel resistance to acid erosion and reduce the risk of cavities.",
+      "Community Water Fluoridation": "Community water fluoridation is the process of adjusting the fluoride content of public water supplies to optimal levels for dental health (approximately 0.7-1.2 parts per million). It is a cost-effective and equitable public health measure for preventing tooth decay and improving oral health outcomes."
+    },
+    "sources": {
+      "Drinking Water": "Fluoride occurs naturally in groundwater and surface water sources, although its concentration can vary widely depending on geographic location and geological factors. Fluoride is also added to drinking water supplies in many communities to achieve optimal fluoridation levels for dental health.",
+      "Dental Products": "Fluoride is a common ingredient in toothpaste, mouthwash, and dental treatments designed to prevent cavities and promote oral hygiene. Fluoride toothpaste is the primary vehicle for delivering fluoride to teeth through daily oral hygiene practices.",
+      "Food and Beverages": "Some foods and beverages contain fluoride naturally or as a result of processing and preparation methods. These include tea, seafood, fluoridated salt, and processed foods made with fluoridated water.",
+      "Professional Dental Treatments": "Dentists and dental hygienists may administer fluoride treatments in the form of varnishes, gels, foams, or rinses during routine dental check-ups or as part of preventive dental care for individuals at high risk of tooth decay."
+    },
+    "dailyIntake": "The recommended daily intake of fluoride varies depending on factors such as age, geographic location, and individual dental health needs. For optimal dental health benefits, the American Dental Association (ADA) recommends a total daily fluoride intake of approximately 1.5 to 4 milligrams for adults and children, with most fluoride coming from fluoridated water and dental products.",
+    "deficiency": "Fluoride deficiency is not a recognized health concern in areas with access to fluoridated water and dental products. However, inadequate fluoride exposure may increase the risk of tooth decay and cavities, especially in populations with limited access to preventive dental care.",
+    "overdose": "Excessive fluoride intake, known as fluorosis, can occur from ingesting large amounts of fluoride-containing substances such as toothpaste, fluoride supplements, or fluoridated water. Mild fluorosis may manifest as white spots or streaks on teeth, while severe fluorosis can cause enamel discoloration, pitting, and structural abnormalities.",
+    "res": ["https://chatgpt.com/"]
+  },
+  {
+    "name": "Iodine",
+    "description": "Iodine is an essential trace mineral that plays a crucial role in thyroid function, hormone synthesis, and overall metabolic regulation in the body.",
+    "functions": {
+      "Thyroid Hormone Production": "Iodine is a key component of thyroid hormones, including thyroxine (T4) and triiodothyronine (T3). These hormones regulate metabolism, growth, development, and energy expenditure.",
+      "Metabolic Regulation": "Thyroid hormones influence various metabolic processes in the body, including carbohydrate, fat, and protein metabolism. They help maintain energy balance, body temperature, and cellular function.",
+      "Brain Development": "Iodine is essential for normal brain development and cognitive function, particularly during fetal development and infancy. Adequate iodine intake during pregnancy and lactation is critical for optimal neurological outcomes in offspring.",
+      "Reproductive Health": "Iodine plays a role in reproductive health and fertility by regulating hormone synthesis and signaling pathways. It is important for menstrual regularity, ovulation, and embryo implantation.",
+      "Immune Function": "Iodine contributes to immune function and defense mechanisms by supporting the activity of immune cells and promoting the production of antibodies. Adequate iodine levels are important for optimal immune responses and resistance to infections."
+    },
+    "sources": {
+      "Seafood": "Seafood, particularly ocean fish and shellfish, is a rich dietary source of iodine. Fish such as cod, tuna, shrimp, and seaweed contain high levels of iodine due to bioaccumulation from seawater.",
+      "Dairy Products": "Dairy products, including milk, yogurt, and cheese, provide iodine in varying amounts, depending on factors such as animal diet and processing methods. Some dairy products may be fortified with iodine for nutritional purposes.",
+      "Iodized Salt": "Iodized salt is table salt that has been fortified with iodine to prevent iodine deficiency disorders. It is a common dietary source of iodine in regions where iodized salt is widely used in food preparation and manufacturing.",
+      "Eggs": "Eggs are a good source of iodine, providing essential nutrients for overall health and development. Both the egg yolk and egg white contain iodine, along with other vitamins and minerals.",
+      "Fruits and Vegetables": "Certain fruits and vegetables contain iodine in varying amounts, depending on soil iodine content and agricultural practices. Examples include potatoes, strawberries, and cranberries."
+    },
+    "dailyIntake": "The recommended daily intake of iodine varies by age, sex, and life stage. For most adults, the recommended amount is approximately 150 micrograms per day. Pregnant and breastfeeding women have higher iodine requirements to support fetal and infant development.",
+    "deficiency": "Iodine deficiency can lead to thyroid disorders such as goiter, hypothyroidism, and cretinism, particularly in regions with low dietary iodine intake. Symptoms of iodine deficiency may include fatigue, weight gain, cold intolerance, and cognitive impairment.",
+    "overdose": "Excessive iodine intake, known as iodine toxicity, can occur from consuming high-dose iodine supplements or iodine-containing medications. Symptoms of iodine toxicity may include thyroid dysfunction, thyroid enlargement, and gastrointestinal upset.",
+    "res": ["https://chatgpt.com/", "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"]
+  },
+  {
+    "name": "Iron",
+    "description": "Iron is an essential mineral that is vital for various physiological functions in the body. It plays a key role in oxygen transport, energy metabolism, DNA synthesis, and immune function.",
+    "functions": {
+      "Oxygen Transport": "Iron is a critical component of hemoglobin, a protein found in red blood cells that binds to oxygen molecules and transports them from the lungs to tissues throughout the body. Iron also helps form myoglobin, a protein in muscle cells that stores and releases oxygen for muscle contraction.",
+      "Energy Metabolism": "Iron is involved in energy production and metabolism by serving as a cofactor for enzymes involved in cellular respiration and ATP synthesis. It helps convert nutrients such as carbohydrates, fats, and proteins into usable energy (ATP) for cellular activities.",
+      "DNA Synthesis": "Iron is necessary for DNA synthesis and cell proliferation, particularly in rapidly dividing tissues such as bone marrow and the gastrointestinal tract. It plays a role in cell growth, differentiation, and repair.",
+      "Immune Function": "Iron is essential for optimal immune function and defense mechanisms. It is required for the proliferation and activity of immune cells, including lymphocytes, macrophages, and neutrophils, which play key roles in immune surveillance, inflammation, and infection control.",
+      "Neurotransmitter Synthesis": "Iron is involved in the synthesis of neurotransmitters such as dopamine, serotonin, and norepinephrine, which are important for mood regulation, cognition, and behavior. Iron deficiency may affect neurotransmitter balance and contribute to neurological symptoms."
+    },
+    "sources": {
+      "Animal-Based Foods": "Animal-based foods are rich sources of heme iron, a highly bioavailable form of iron that is easily absorbed by the body. Examples include red meat, poultry, fish, and shellfish.",
+      "Plant-Based Foods": "Plant-based foods contain non-heme iron, a form of iron that is less readily absorbed compared to heme iron. Good sources of non-heme iron include legumes, tofu, lentils, beans, spinach, and fortified cereals.",
+      "Iron-Fortified Foods": "Certain foods are fortified with iron to enhance their nutritional value, particularly for individuals at risk of iron deficiency. Common examples include iron-fortified cereals, bread, pasta, and infant formula.",
+      "Nuts and Seeds": "Nuts and seeds, such as almonds, cashews, pumpkin seeds, and sesame seeds, are good sources of iron, along with other essential nutrients such as protein, healthy fats, and fiber."
+    },
+    "dailyIntake": "The recommended daily intake of iron varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 8-18 milligrams per day, depending on factors such as age, sex, and life stage. Pregnant women have higher iron requirements to support fetal growth and development.",
+    "deficiency": "Iron deficiency is one of the most common nutritional deficiencies worldwide and can lead to anemia, characterized by low hemoglobin levels and impaired oxygen transport. Symptoms of iron deficiency anemia may include fatigue, weakness, pale skin, shortness of breath, and impaired cognitive function.",
+    "overdose": "Excessive iron intake, known as iron overload or hemochromatosis, can occur from chronic supplementation or inherited disorders of iron metabolism. Symptoms of iron overload may include abdominal pain, joint pain, fatigue, liver damage, and organ failure.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "https://www.mayoclinic.org/diseases-conditions/iron-deficiency-anemia/symptoms-causes/syc-20355034",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Magnesium",
+    "description": "Magnesium is an essential mineral that plays a critical role in numerous physiological functions in the body. It is involved in energy metabolism, muscle and nerve function, bone health, and protein synthesis.",
+    "functions": {
+      "Energy Metabolism": "Magnesium serves as a cofactor for enzymes involved in energy production and metabolism, including ATP synthesis and glycolysis. It helps convert nutrients such as carbohydrates, fats, and proteins into usable energy (ATP) for cellular activities.",
+      "Muscle and Nerve Function": "Magnesium plays a key role in muscle contraction and relaxation, as well as nerve impulse transmission. It helps regulate calcium levels within cells, which is essential for proper muscle and nerve function.",
+      "Bone Health": "Magnesium is important for bone health and density, working synergistically with calcium, vitamin D, and other minerals to maintain skeletal integrity. It helps regulate bone formation and resorption processes, influencing bone mineralization and turnover.",
+      "Protein Synthesis": "Magnesium is involved in protein synthesis, the process by which cells build and repair proteins. It is required for the synthesis of DNA, RNA, and ribosomes, as well as the activation of amino acids for protein assembly.",
+      "Heart Health": "Magnesium plays a role in cardiovascular health by supporting normal heart rhythm, blood pressure regulation, and vascular tone. It helps maintain the electrical stability of cardiac cells and blood vessel function.",
+      "Glucose and Insulin Regulation": "Magnesium is involved in glucose metabolism and insulin signaling pathways, influencing blood sugar levels and insulin sensitivity. Adequate magnesium levels may help reduce the risk of insulin resistance and type 2 diabetes."
+    },
+    "sources": {
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, Swiss chard, and collard greens are excellent dietary sources of magnesium. They provide magnesium along with other vitamins, minerals, and phytonutrients.",
+      "Nuts and Seeds": "Nuts and seeds, including almonds, cashews, peanuts, and pumpkin seeds, are rich sources of magnesium. They are convenient snack options that also provide healthy fats, protein, and fiber.",
+      "Whole Grains": "Whole grains such as brown rice, quinoa, oats, and whole wheat products contain magnesium in varying amounts. Consuming a variety of whole grains can contribute to overall magnesium intake along with other essential nutrients.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, are good sources of magnesium. They provide not only magnesium but also dietary fiber, protein, and other vitamins and minerals."
+    },
+    "dailyIntake": "The recommended daily intake of magnesium varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 310-420 milligrams per day for males and 270-320 milligrams per day for females. Pregnant and lactating women may have higher magnesium requirements.",
+    "deficiency": "Magnesium deficiency is relatively common and can lead to symptoms such as muscle cramps, fatigue, weakness, irritability, and abnormal heart rhythms. Chronic magnesium deficiency may increase the risk of osteoporosis, hypertension, and cardiovascular disease.",
+    "overdose": "Excessive magnesium intake, known as magnesium toxicity, is rare and typically occurs from overuse of magnesium supplements or medications. Symptoms of magnesium toxicity may include diarrhea, abdominal discomfort, nausea, vomiting, and low blood pressure.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "https://chatgpt.com/",
+      "https://www.health.harvard.edu/staying-healthy/should-you-get-your-nutrients-from-food-or-from-supplements"
+    ]
+  },
+  {
+    "name": "Manganese",
+    "description": "Manganese is an essential trace mineral that plays a vital role in various physiological processes in the body. It is involved in antioxidant defense, bone formation, metabolism, and neurological function.",
+    "functions": {
+      "Antioxidant Defense": "Manganese serves as a cofactor for several antioxidant enzymes, including superoxide dismutase (SOD) and glutathione peroxidase, which help neutralize harmful free radicals and reactive oxygen species (ROS) in cells and tissues. Manganese-dependent antioxidants protect cells from oxidative damage and support overall antioxidant defense mechanisms.",
+      "Bone Formation": "Manganese is essential for bone health and development, working synergistically with other minerals such as calcium, phosphorus, and magnesium. It is involved in the synthesis of collagen and proteoglycans, two key components of bone tissue, cartilage, and connective tissues.",
+      "Metabolism": "Manganese plays a role in energy metabolism and macronutrient utilization by serving as a cofactor for enzymes involved in carbohydrate, protein, and lipid metabolism. It helps convert nutrients into usable energy (ATP) for cellular activities and supports metabolic processes in various tissues.",
+      "Neurological Function": "Manganese is necessary for normal neurological function and neurotransmitter synthesis. It is involved in the production of neurotransmitters such as dopamine, norepinephrine, and serotonin, which play key roles in mood regulation, cognition, and behavior.",
+      "Reproductive Health": "Manganese contributes to reproductive health and fertility by supporting hormone synthesis and reproductive organ function. It is involved in the production of sex hormones such as estrogen and progesterone, as well as sperm production and maturation."
+    },
+    "sources": {
+      "Nuts and Seeds": "Nuts and seeds, including almonds, hazelnuts, pecans, and pumpkin seeds, are excellent dietary sources of manganese. They provide not only manganese but also healthy fats, protein, and other essential nutrients.",
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products contain manganese in varying amounts. Consuming a variety of whole grains can contribute to overall manganese intake along with other essential nutrients.",
+      "Legumes and Beans": "Legumes and beans, such as chickpeas, lentils, black beans, and kidney beans, are rich sources of manganese. They provide not only manganese but also dietary fiber, protein, and other vitamins and minerals.",
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, Swiss chard, and collard greens are good dietary sources of manganese. They offer manganese along with other vitamins, minerals, and phytonutrients."
+    },
+    "dailyIntake": "The recommended daily intake of manganese varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 2.3-2.6 milligrams per day for males and 1.8-2.0 milligrams per day for females. Pregnant and lactating women may have higher manganese requirements.",
+    "deficiency": "Manganese deficiency is rare and typically occurs in conjunction with other nutrient deficiencies or underlying health conditions. Symptoms of manganese deficiency may include impaired growth and development, skeletal abnormalities, reproductive dysfunction, and neurological symptoms.",
+    "overdose": "Excessive manganese intake, known as manganese toxicity, can occur from chronic exposure to high levels of manganese in drinking water, occupational settings, or dietary supplements. Symptoms of manganese toxicity may include neurological symptoms such as tremors, muscle stiffness, and cognitive impairment.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Molybdenum",
+    "description": "Molybdenum is an essential trace mineral that plays a critical role in various physiological processes in the body. It is involved in enzymatic reactions, sulfur metabolism, and detoxification.",
+    "functions": {
+      "Enzymatic Reactions": "Molybdenum serves as a cofactor for several enzymes, known as molybdoenzymes, that catalyze important biochemical reactions in the body. These enzymes are involved in processes such as amino acid metabolism, purine metabolism, and sulfite detoxification.",
+      "Sulfur Metabolism": "Molybdenum is necessary for the metabolism of sulfur-containing amino acids such as cysteine and methionine. It participates in the conversion of sulfite to sulfate, a crucial step in sulfur metabolism and the detoxification of sulfite compounds.",
+      "Detoxification": "Molybdenum plays a role in detoxification processes by facilitating the breakdown and elimination of harmful substances such as sulfites, which can accumulate in the body and cause adverse effects. It helps convert sulfite to sulfate, a less toxic form that can be excreted in urine.",
+      "Uric Acid Metabolism": "Molybdenum is involved in the metabolism of purines, which are compounds found in foods and produced by the body. It helps convert purines to uric acid, which is then excreted from the body in urine. Adequate molybdenum levels may help prevent the buildup of uric acid and reduce the risk of gout."
+    },
+    "sources": {
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, are rich dietary sources of molybdenum. They provide not only molybdenum but also protein, fiber, and other essential nutrients.",
+      "Whole Grains": "Whole grains such as barley, oats, buckwheat, and whole wheat products contain molybdenum in varying amounts. Consuming a variety of whole grains can contribute to overall molybdenum intake along with other essential nutrients.",
+      "Nuts and Seeds": "Nuts and seeds, including sunflower seeds, sesame seeds, almonds, and peanuts, are good sources of molybdenum. They offer not only molybdenum but also healthy fats, protein, and other vitamins and minerals.",
+      "Leafy Green Vegetables": "Leafy green vegetables such as spinach, kale, Swiss chard, and collard greens are dietary sources of molybdenum. They provide molybdenum along with other vitamins, minerals, and phytonutrients."
+    },
+    "dailyIntake": "The recommended daily intake of molybdenum varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 45-50 micrograms per day. Pregnant and lactating women may have slightly higher molybdenum requirements.",
+    "deficiency": "Molybdenum deficiency is rare and typically occurs in conjunction with other nutrient deficiencies or underlying health conditions. Symptoms of molybdenum deficiency may include impaired sulfur metabolism, neurological symptoms, and susceptibility to sulfite sensitivity reactions.",
+    "overdose": "Excessive molybdenum intake, known as molybdenum toxicity, is rare and usually only occurs from industrial exposure or environmental contamination. Symptoms of molybdenum toxicity may include diarrhea, gout-like symptoms, and impaired copper metabolism.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Phosphorus",
+    "description": "Phosphorus is an essential mineral that plays a critical role in various physiological processes in the body. It is a major component of bones and teeth, and it is involved in energy metabolism, cell signaling, and nutrient utilization.",
+    "functions": {
+      "Bone and Teeth Health": "Phosphorus is a major structural component of bones and teeth, accounting for approximately 85% of the body's phosphorus content. It works synergistically with calcium to maintain bone density, strength, and integrity.",
+      "Energy Metabolism": "Phosphorus is involved in energy production and metabolism by serving as a key component of adenosine triphosphate (ATP), the primary energy currency of cells. ATP hydrolysis releases energy that drives cellular activities such as muscle contraction, nerve signaling, and biosynthesis.",
+      "Cell Signaling": "Phosphorus plays a role in cell signaling and communication processes by participating in the phosphorylation of proteins, enzymes, and other molecules. Phosphorylation regulates enzyme activity, gene expression, and cellular responses to external stimuli.",
+      "Nutrient Utilization": "Phosphorus is involved in the metabolism and utilization of other nutrients such as carbohydrates, fats, and proteins. It is required for the synthesis of nucleic acids, phospholipids, and other cellular components essential for growth, repair, and maintenance."
+    },
+    "sources": {
+      "Dairy Products": "Dairy products such as milk, yogurt, and cheese are rich dietary sources of phosphorus, providing readily absorbable forms of phosphorus along with calcium and other nutrients.",
+      "Meat and Poultry": "Meat and poultry, including beef, pork, chicken, and turkey, are good sources of phosphorus, particularly in the form of phosphoproteins and phospholipids found in muscle tissue.",
+      "Seafood": "Seafood, such as fish, shellfish, and crustaceans, contains phosphorus in varying amounts. Fish like salmon, tuna, and sardines are nutrient-dense sources of phosphorus, along with omega-3 fatty acids and protein.",
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products contain phosphorus in varying amounts. Consuming a variety of whole grains can contribute to overall phosphorus intake along with dietary fiber and other nutrients."
+    },
+    "dailyIntake": "The recommended daily intake of phosphorus varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 700-1,250 milligrams per day. Pregnant and lactating women may have slightly higher phosphorus requirements.",
+    "deficiency": "Phosphorus deficiency is rare in healthy individuals with balanced diets, as phosphorus is widely available in many foods. However, severe phosphorus deficiency can lead to symptoms such as weakness, fatigue, bone pain, and loss of appetite.",
+    "overdose": "Excessive phosphorus intake, known as phosphorus toxicity, is uncommon in healthy individuals with normal kidney function, as excess phosphorus is excreted in urine. However, high intake of phosphorus supplements or phosphorus-containing additives may disrupt calcium-phosphorus balance and lead to health problems such as bone loss and kidney damage.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Potassium",
+    "description": "Potassium is an essential mineral and electrolyte that plays a critical role in various physiological processes in the body. It is involved in fluid balance, nerve transmission, muscle function, and cardiovascular health.",
+    "functions": {
+      "Fluid Balance": "Potassium helps regulate fluid balance within cells and tissues by controlling the movement of water and electrolytes across cell membranes. It maintains cellular hydration and osmotic pressure, which are essential for proper cellular function.",
+      "Nerve Transmission": "Potassium is essential for nerve impulse transmission and signaling processes. It helps maintain the electrical potential of cell membranes, allowing nerve cells to generate action potentials and communicate with other cells.",
+      "Muscle Function": "Potassium plays a key role in muscle contraction and relaxation by regulating the excitability of muscle cells. It influences the activity of ion channels and pumps involved in muscle membrane potential and calcium release from intracellular stores.",
+      "Heart Health": "Potassium is important for cardiovascular health and function, particularly in regulating heart rhythm and blood pressure. It helps maintain normal heart rate, rhythm, and contractility, and it counteracts the effects of sodium on blood pressure by promoting vasodilation and excretion of sodium by the kidneys."
+    },
+    "sources": {
+      "Fruits and Vegetables": "Fruits and vegetables are rich dietary sources of potassium, providing abundant amounts of this mineral along with vitamins, fiber, and antioxidants. Examples include bananas, oranges, tomatoes, potatoes, spinach, and avocados.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, are excellent sources of potassium. They offer not only potassium but also dietary fiber, protein, and other essential nutrients.",
+      "Dairy Products": "Dairy products such as milk, yogurt, and cheese contain potassium in varying amounts. They provide not only potassium but also calcium, vitamin D, and other nutrients important for bone health and overall well-being.",
+      "Fish and Lean Meats": "Fish and lean meats, including salmon, tuna, chicken, and turkey, are good sources of potassium. They offer potassium along with high-quality protein, omega-3 fatty acids, and other nutrients."
+    },
+    "dailyIntake": "The recommended daily intake of potassium varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 2,600-3,400 milligrams per day. However, individual potassium needs may vary based on factors such as dietary habits, physical activity level, and health conditions.",
+    "deficiency": "Potassium deficiency, known as hypokalemia, can occur from inadequate dietary intake, excessive losses (e.g., vomiting, diarrhea), or medical conditions affecting potassium balance (e.g., kidney disorders). Symptoms of potassium deficiency may include muscle weakness, cramps, fatigue, irregular heart rhythm, and increased blood pressure.",
+    "overdose": "Excessive potassium intake, known as hyperkalemia, is rare in healthy individuals with normal kidney function, as excess potassium is excreted in urine. However, high intake of potassium supplements or potassium-containing medications may lead to hyperkalemia, which can cause symptoms such as muscle weakness, heart palpitations, and cardiac arrhythmias.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Selenium",
+    "description": "Selenium is an essential trace mineral that plays a critical role in various physiological processes in the body. It is a component of selenoproteins, which have antioxidant, anti-inflammatory, and immune-modulating properties.",
+    "functions": {
+      "Antioxidant Defense": "Selenium is a key component of antioxidant enzymes such as glutathione peroxidases (GPx) and thioredoxin reductases (TrxR), which help neutralize harmful free radicals and reactive oxygen species (ROS) in cells and tissues. Selenium-dependent antioxidants protect cells from oxidative damage and support overall antioxidant defense mechanisms.",
+      "Thyroid Function": "Selenium is involved in thyroid hormone metabolism and synthesis, particularly in the conversion of thyroxine (T4) to triiodothyronine (T3), the active form of thyroid hormone. Adequate selenium levels are necessary for optimal thyroid function and regulation of metabolic processes.",
+      "Immune Function": "Selenium plays a role in immune function and defense mechanisms by supporting the activity of immune cells such as lymphocytes, macrophages, and natural killer (NK) cells. Selenium helps regulate immune responses, inflammation, and pathogen clearance.",
+      "Reproductive Health": "Selenium contributes to reproductive health and fertility by protecting sperm cells from oxidative damage and supporting male reproductive function. It is involved in sperm maturation, motility, and viability, as well as DNA integrity and fertilization.",
+      "Cancer Prevention": "Selenium has been studied for its potential role in cancer prevention and risk reduction. Some research suggests that selenium may help protect against certain types of cancer by inhibiting tumor growth, promoting DNA repair, and modulating immune responses."
+    },
+    "sources": {
+      "Seafood": "Seafood, such as fish, shellfish, and crustaceans, is a rich dietary source of selenium, particularly in regions where the soil and water are selenium-rich. Fish like tuna, salmon, sardines, and shrimp contain selenium along with omega-3 fatty acids and protein.",
+      "Brazil Nuts": "Brazil nuts are one of the richest food sources of selenium, providing exceptionally high levels of this mineral. Eating just one or two Brazil nuts per day can meet or exceed the recommended daily intake of selenium for most individuals.",
+      "Meat and Poultry": "Meat and poultry, including beef, pork, chicken, and turkey, are good sources of selenium. They offer selenium along with high-quality protein, vitamins, and minerals, making them nutritious choices for overall health and well-being.",
+      "Whole Grains": "Whole grains such as brown rice, oats, barley, and whole wheat products contain selenium in varying amounts. Consuming a variety of whole grains can contribute to overall selenium intake along with dietary fiber and other nutrients."
+    },
+    "dailyIntake": "The recommended daily intake of selenium varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 55-70 micrograms per day. Pregnant and lactating women may have slightly higher selenium requirements.",
+    "deficiency": "Selenium deficiency is rare in healthy individuals with balanced diets, as selenium is widely available in many foods. However, certain factors such as low soil selenium levels, poor dietary intake, and gastrointestinal disorders may increase the risk of deficiency. Symptoms of selenium deficiency may include muscle weakness, fatigue, hair loss, and compromised immune function.",
+    "overdose": "Excessive selenium intake, known as selenium toxicity or selenosis, can occur from chronic supplementation or environmental exposure to high levels of selenium. Symptoms of selenium toxicity may include gastrointestinal disturbances, hair and nail changes, neurological symptoms, and in severe cases, organ damage and death.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "https://chatgpt.com/",
+      "https://www.healthline.com/nutrition/selenium-benefits"
+    ]
+  },
+  {
+    "name": "Sodium",
+    "description": "Sodium is an essential mineral and electrolyte that plays a critical role in various physiological processes in the body. It is involved in fluid balance, nerve transmission, muscle function, and blood pressure regulation.",
+    "functions": {
+      "Fluid Balance": "Sodium helps regulate fluid balance within cells and tissues by controlling the movement of water and electrolytes across cell membranes. It maintains cellular hydration and osmotic pressure, which are essential for proper cellular function and hydration status.",
+      "Nerve Transmission": "Sodium is essential for nerve impulse transmission and signaling processes. It helps maintain the electrical potential of cell membranes, allowing nerve cells to generate action potentials and communicate with other cells.",
+      "Muscle Function": "Sodium plays a key role in muscle contraction and relaxation by influencing the movement of calcium ions within muscle cells. It helps regulate the excitability of muscle fibers and the generation of force during muscle contraction.",
+      "Blood Pressure Regulation": "Sodium is a major determinant of blood pressure, particularly in its role as a component of extracellular fluid and blood plasma. It influences blood volume and vascular tone by affecting fluid retention, arterial stiffness, and the activity of the renin-angiotensin-aldosterone system (RAAS)."
+    },
+    "sources": {
+      "Table Salt": "Table salt, or sodium chloride, is the primary dietary source of sodium for most people. It is commonly used as a seasoning and food preservative in cooking and food preparation. Processed and packaged foods also contain significant amounts of added sodium.",
+      "Processed Foods": "Processed and packaged foods such as canned soups, frozen meals, snacks, condiments, and fast food are major sources of dietary sodium. These foods often contain high levels of added sodium in the form of salt, sodium bicarbonate, or sodium-containing additives.",
+      "Dairy Products": "Dairy products such as milk, cheese, and yogurt naturally contain small amounts of sodium, although they are not significant contributors to overall sodium intake in most diets. Low-sodium or unsalted varieties of dairy products are available for individuals seeking to reduce sodium consumption.",
+      "Natural Sources": "Certain natural foods such as vegetables, fruits, nuts, and seeds contain small amounts of sodium in their unprocessed form. However, the sodium content of these foods is relatively low compared to processed and packaged foods."
+    },
+    "dailyIntake": "The recommended daily intake of sodium varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 2,300-2,400 milligrams per day, which is equivalent to about one teaspoon of salt. However, excessive sodium intake is common in many populations due to the widespread availability of high-sodium processed foods.",
+    "deficiency": "Sodium deficiency, known as hyponatremia, is rare in healthy individuals with balanced diets, as sodium is widely available in many foods. However, certain factors such as excessive sweating, prolonged vomiting or diarrhea, and medical conditions affecting fluid balance may increase the risk of deficiency. Symptoms of sodium deficiency may include weakness, fatigue, muscle cramps, headache, and altered mental status.",
+    "overdose": "Excessive sodium intake, known as sodium toxicity or hypernatremia, can occur from chronic consumption of high-sodium diets, particularly from processed and packaged foods. Sodium overload can lead to health problems such as hypertension, fluid retention, edema, and cardiovascular disease. Individuals with certain medical conditions such as kidney disease or heart failure may be more sensitive to the effects of excess sodium intake.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/sodium-and-salt"
+    ]
+  },
+  {
+    "name": "Zinc",
+    "description": "Zinc is an essential trace mineral that plays a critical role in various physiological processes in the body. It is involved in immune function, protein synthesis, wound healing, DNA synthesis, and cell division.",
+    "functions": {
+      "Immune Function": "Zinc is vital for immune system function and defense mechanisms. It helps regulate innate and adaptive immune responses, including the production and activity of immune cells such as T lymphocytes, B lymphocytes, natural killer (NK) cells, and macrophages.",
+      "Protein Synthesis": "Zinc is necessary for protein synthesis and metabolism, which are essential processes for growth, repair, and maintenance of tissues and organs. It is involved in the synthesis of enzymes, hormones, and structural proteins that play critical roles in cellular function.",
+      "Wound Healing": "Zinc is important for wound healing and tissue repair processes. It supports skin integrity and regeneration by promoting cell proliferation, migration, and differentiation at the wound site. Zinc also helps maintain the structural integrity of connective tissues such as collagen and elastin.",
+      "DNA Synthesis": "Zinc is essential for DNA synthesis and cell division, which are fundamental processes for growth, development, and reproduction. It is required for the activity of DNA polymerases, enzymes that catalyze the replication and repair of DNA molecules during cell replication and proliferation.",
+      "Antioxidant Defense": "Zinc acts as an antioxidant and scavenger of free radicals and reactive oxygen species (ROS) in cells and tissues. It helps protect cells from oxidative damage and inflammation by supporting the activity of antioxidant enzymes such as superoxide dismutase (SOD) and metallothionein."
+    },
+    "sources": {
+      "Meat and Poultry": "Meat and poultry, including beef, pork, chicken, and turkey, are rich dietary sources of zinc. They provide highly absorbable forms of zinc along with high-quality protein, vitamins, and minerals.",
+      "Shellfish": "Shellfish such as oysters, crab, lobster, and mussels are among the best food sources of zinc. They contain high concentrations of bioavailable zinc along with other essential nutrients.",
+      "Legumes and Beans": "Legumes and beans, such as lentils, chickpeas, black beans, and kidney beans, are good plant-based sources of zinc. They offer zinc along with dietary fiber, protein, and other nutrients.",
+      "Nuts and Seeds": "Nuts and seeds, including pumpkin seeds, sesame seeds, hemp seeds, and almonds, contain zinc in varying amounts. They are nutrient-dense sources of zinc along with healthy fats, protein, and vitamins."
+    },
+    "dailyIntake": "The recommended daily intake of zinc varies by age, sex, and individual health status. For most adults, the recommended amount is approximately 8-11 milligrams per day for men and 6-8 milligrams per day for women. Pregnant and lactating women may have slightly higher zinc requirements.",
+    "deficiency": "Zinc deficiency is a common micronutrient deficiency worldwide, particularly in populations with inadequate dietary intake, poor absorption, or increased zinc losses. Symptoms of zinc deficiency may include impaired immune function, delayed wound healing, hair loss, loss of appetite, and growth retardation in children.",
+    "overdose": "Excessive zinc intake from dietary sources is rare and usually only occurs from chronic supplementation or accidental ingestion of zinc-containing products. However, high doses of zinc supplements can interfere with copper absorption and lead to adverse effects such as gastrointestinal disturbances, copper deficiency, and immune dysfunction.",
+    "res": [
+      "https://chatgpt.com/",
+      "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5793244/",
+      "https://www.healthline.com/nutrition/best-foods-high-in-zinc"
+    ]
+  },
+  {
+    "name": "Carbohydrate",
+    "description": "Carbohydrates are one of the main types of nutrients and serve as the primary source of energy for the body. They are found in a wide variety of foods and are essential for proper bodily function. Carbohydrates are classified into three main types: sugars, starches, and fibers. Simple carbohydrates include sugars found in fruits, vegetables, and milk, while complex carbohydrates include starches and fibers found in whole grains, legumes, and vegetables.",
+    "functions": {
+      "Energy Production": "Carbohydrates are broken down into glucose, which is used by the body as a primary source of energy. This energy is vital for all bodily functions and physical activity.",
+      "Brain Function": "Glucose derived from carbohydrates is the main energy source for the brain, supporting cognitive functions and overall mental performance.",
+      "Digestive Health": "Dietary fiber, a type of carbohydrate, helps regulate the digestive system by promoting regular bowel movements and preventing constipation. It also supports a healthy gut microbiome.",
+      "Sparing Protein": "Adequate carbohydrate intake prevents the body from using protein as an energy source, allowing protein to be used for its primary functions such as muscle repair and immune function.",
+      "Fat Metabolism": "Carbohydrates are necessary for fat metabolism. Without enough carbohydrates, the body cannot efficiently burn fat, leading to the production of ketones."
+    },
+    "sources": {
+      "Natural Sources": "Fruits, vegetables, whole grains, legumes, and dairy products are natural sources of carbohydrates. These foods provide essential vitamins, minerals, and fibers along with carbohydrates.",
+      "Processed Foods": "Processed foods such as bread, pasta, cereals, and baked goods often contain added sugars and refined grains. These sources can contribute to excessive carbohydrate intake and may lack nutritional value compared to whole food sources.",
+      "Sugars": "Natural sugars are found in fruits (fructose), vegetables, and dairy products (lactose). Added sugars are found in sweets, soft drinks, and many processed foods."
+    },
+    "dailyIntake": "The daily intake of carbohydrates varies based on age, sex, and level of physical activity. Generally, carbohydrates should make up about 45-65% of total daily calories. For a person consuming a 2,000 calorie diet, this amounts to 225-325 grams of carbohydrates per day. It's recommended to focus on complex carbohydrates and natural sources while limiting added sugars.",
+    "deficiency": "A deficiency in carbohydrates can lead to low blood sugar levels (hypoglycemia), resulting in symptoms such as fatigue, weakness, dizziness, and irritability. Severe carbohydrate deficiency can cause ketosis, where the body breaks down fat for energy, leading to a buildup of ketones. Chronic low carbohydrate intake can also impair physical and mental performance.",
+    "overdose": "Consuming excessive amounts of carbohydrates, especially refined carbohydrates and sugars, can contribute to weight gain, insulin resistance, and an increased risk of type 2 diabetes and heart disease. Diets high in refined carbohydrates can cause rapid spikes and crashes in blood sugar levels, leading to fluctuations in energy levels and increased hunger. Additionally, excess carbohydrate intake may promote the storage of fat in the body, particularly around the abdomen. It's important to focus on consuming complex carbohydrates from whole grains, fruits, vegetables, and legumes, while limiting intake of refined carbohydrates and sugary foods and beverages to maintain overall health and well-being.",
+    "res": ["https://www.hsph.harvard.edu/nutritionsource/carbohydrates/", "https://chatgpt.com/"]
+  },
+  {
+    "name": "Cholesterol",
+    "description": "Cholesterol is a waxy, fat-like substance found in every cell of the body. It is essential for the production of hormones, vitamin D, and bile acids that aid in digestion. Cholesterol is primarily produced by the liver, but it can also be obtained from certain foods.",
+    "functions": {
+      "Cell Membrane Structure": "Cholesterol is a key component of cell membranes, providing stability and fluidity. It helps regulate what substances can pass in and out of cells, ensuring proper cellular function.",
+      "Hormone Production": "Cholesterol is a precursor for the synthesis of steroid hormones, including cortisol, aldosterone, estrogen, and testosterone. These hormones play crucial roles in metabolism, stress response, reproduction, and growth.",
+      "Vitamin D Synthesis": "Cholesterol is converted into vitamin D in the skin upon exposure to sunlight. Vitamin D is essential for calcium absorption, bone health, immune function, and overall well-being.",
+      "Bile Acid Synthesis": "Cholesterol is used to produce bile acids in the liver, which are necessary for the digestion and absorption of dietary fats and fat-soluble vitamins. Bile acids help emulsify fats, making them easier to digest and absorb in the intestines."
+    },
+    "sources": {
+      "Dietary Sources": "Cholesterol is found in animal-based foods such as meat, poultry, eggs, dairy products, and seafood. Organ meats like liver and kidney contain particularly high amounts of cholesterol.",
+      "Saturated and Trans Fats": "Foods high in saturated and trans fats can increase cholesterol levels in the blood. These include fatty cuts of meat, processed meats, full-fat dairy products, butter, lard, and tropical oils like coconut oil and palm oil.",
+      "Healthy Fats and Fiber": "Eating a diet rich in unsaturated fats (found in nuts, seeds, avocados, and olive oil) and fiber (found in fruits, vegetables, whole grains, and legumes) can help lower cholesterol levels and reduce the risk of heart disease.",
+      "Processed Foods": "Many processed and packaged foods contain added cholesterol, especially those made with hydrogenated oils, margarine, and partially hydrogenated fats. These foods include baked goods, fried foods, snacks, and convenience meals."
+    },
+    "dailyIntake": "There is no recommended daily intake for cholesterol because the liver produces enough cholesterol to meet the body's needs. However, dietary guidelines recommend limiting dietary cholesterol intake to less than 300 milligrams per day for most people. Individuals with heart disease or high cholesterol levels may need to further restrict their cholesterol intake.",
+    "deficiency": "Cholesterol deficiency is not a recognized health concern because the body can produce all the cholesterol it needs. However, extremely low levels of cholesterol may be associated with certain health conditions or diseases.",
+    "overdose": "Consuming excessive amounts of dietary cholesterol can contribute to elevated levels of LDL (bad) cholesterol in the blood, increasing the risk of heart disease and stroke. While dietary cholesterol itself isn't inherently harmful, it's often found in foods high in saturated and trans fats, which have a more significant impact on cholesterol levels. Additionally, individuals with certain genetic conditions, such as familial hypercholesterolemia, may be more sensitive to dietary cholesterol intake. It's important to focus on a balanced diet rich in fruits, vegetables, whole grains, and lean protein sources while limiting intake of high-cholesterol foods like egg yolks, organ meats, and full-fat dairy products to support heart health.",
+    "res": [
+      "https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/symptoms-causes/syc-20350800",
+      "https://www.health.harvard.edu/heart-health/how-to-lower-your-cholesterol-without-drugs",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Fat",
+    "description": "Fat is a vital macronutrient that provides energy, supports cell growth, protects organs, and keeps the body warm. It also helps the body absorb some nutrients and produce important hormones. Fats are made up of fatty acids and glycerol and are classified into saturated, unsaturated (monounsaturated and polyunsaturated), and trans fats.",
+    "functions": {
+      "Energy Storage": "Fat serves as a significant energy reserve. One gram of fat provides 9 calories of energy, which is more than twice the energy provided by carbohydrates or proteins.",
+      "Cell Structure": "Fat is a critical component of cell membranes, maintaining their structure and fluidity.",
+      "Hormone Production": "Fats are involved in the synthesis of hormones, including sex hormones and adrenal hormones.",
+      "Nutrient Absorption": "Fat is necessary for the absorption of fat-soluble vitamins A, D, E, and K, which are crucial for various bodily functions.",
+      "Insulation and Protection": "Fat provides insulation to help regulate body temperature and protects vital organs by cushioning them."
+    },
+    "sources": {
+      "Saturated Fats": "Found in animal products like meat, butter, cheese, and dairy, as well as in some tropical oils like coconut and palm oil. Excessive intake of saturated fats can raise cholesterol levels and increase the risk of heart disease.",
+      "Unsaturated Fats": {
+        "Monounsaturated Fats": "Found in olive oil, avocados, and nuts. These fats can help reduce bad cholesterol levels and are beneficial for heart health.",
+        "Polyunsaturated Fats": "Found in fatty fish (such as salmon, mackerel, and sardines), flaxseeds, walnuts, and sunflower seeds. They include omega-3 and omega-6 fatty acids, which are essential for brain function and cell growth."
+      },
+      "Trans Fats": "Found in partially hydrogenated oils, some margarines, and many processed foods. Trans fats are harmful and can raise bad cholesterol levels while lowering good cholesterol levels, increasing the risk of heart disease."
+    },
+    "dailyIntake": "The recommended daily intake of fat varies based on age, sex, and level of physical activity. Generally, fat should make up 20-35% of total daily calories. For a person consuming 2,000 calories a day, this amounts to about 44-78 grams of fat. It's important to focus on consuming healthy fats while limiting saturated and trans fats.",
+    "deficiency": "Fat deficiency is rare but can lead to a lack of essential fatty acids and fat-soluble vitamins, causing symptoms such as dry skin, hair loss, poor wound healing, and impaired brain function. Severe deficiency can lead to growth problems in children and reproductive issues in adults.",
+    "overdose": "Consuming excessive amounts of fat can contribute to weight gain and obesity, as fats are calorie-dense nutrients. Additionally, diets high in saturated and trans fats can increase levels of LDL (bad) cholesterol in the blood, raising the risk of heart disease and stroke. It's important to focus on consuming healthy fats, such as those found in nuts, seeds, avocados, and fatty fish, while limiting intake of saturated and trans fats found in processed foods, fried foods, and baked goods. Maintaining a balanced diet that includes a moderate amount of healthy fats is key to supporting overall health and well-being.",
+    "res": [
+      "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/",
+      "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Fiber",
+    "description": "Dietary fiber, also known as roughage or bulk, refers to the indigestible parts of plant foods. It passes relatively intact through the stomach, small intestine, and colon and provides numerous health benefits. There are two main types of dietary fiber: soluble fiber, which dissolves in water, and insoluble fiber, which does not dissolve in water.",
+    "functions": {
+      "Digestive Health": "Fiber adds bulk to stool, promoting regular bowel movements and preventing constipation. It also helps maintain bowel health and may reduce the risk of developing hemorrhoids and diverticular disease.",
+      "Cholesterol Management": "Soluble fiber can help lower LDL (bad) cholesterol levels by binding to cholesterol particles and removing them from the body. This can reduce the risk of heart disease and stroke.",
+      "Blood Sugar Regulation": "Soluble fiber slows the absorption of sugar, helping to stabilize blood sugar levels. This is beneficial for people with diabetes and can reduce the risk of developing type 2 diabetes.",
+      "Weight Management": "Fiber-rich foods are generally lower in calories and can help promote feelings of fullness, reducing overall calorie intake. This can aid in weight management and weight loss.",
+      "Gut Microbiome Health": "Certain types of fiber are fermented by beneficial bacteria in the colon, producing short-chain fatty acids that support gut health and may reduce the risk of inflammatory bowel diseases."
+    },
+    "sources": {
+      "Whole Grains": "Whole grains like oats, barley, brown rice, quinoa, and whole wheat products are excellent sources of fiber. They contain both soluble and insoluble fiber.",
+      "Legumes": "Beans, lentils, chickpeas, and peas are rich in fiber, protein, and other nutrients. They are versatile ingredients that can be added to soups, salads, and main dishes.",
+      "Fruits and Vegetables": "Fruits and vegetables, particularly those with edible skins, seeds, and membranes, are high in fiber. Examples include apples, berries, oranges, broccoli, carrots, and spinach.",
+      "Nuts and Seeds": "Nuts (such as almonds, walnuts, and pistachios) and seeds (such as chia seeds, flaxseeds, and pumpkin seeds) are nutritious sources of fiber, healthy fats, and protein."
+    },
+    "dailyIntake": "The recommended daily intake of fiber varies based on age, sex, and calorie needs. The general recommendation is 25 grams for women and 38 grams for men. However, most people do not consume enough fiber, with average intakes falling below recommended levels. Increasing fiber intake gradually and staying hydrated can help prevent gastrointestinal discomfort.",
+    "deficiency": "A lack of fiber in the diet can lead to constipation, irregular bowel movements, and increased risk of digestive disorders such as diverticulosis and hemorrhoids. Low fiber intake is also associated with higher risk of chronic diseases such as heart disease, diabetes, and certain cancers.",
+    "overdose": "Consuming too much fiber can lead to gastrointestinal discomfort, including bloating, gas, and abdominal cramps. Excessive fiber intake may also cause diarrhea or constipation, depending on individual tolerance and hydration status. It's essential to increase fiber intake gradually and drink plenty of water to help prevent digestive issues. Additionally, individuals with certain digestive disorders, such as irritable bowel syndrome (IBS), may need to monitor their fiber intake carefully and adjust as needed to avoid exacerbating symptoms.",
+    "res": [
+      "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983",
+      "https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Omega-3 Fatty Acids",
+    "description": "Omega-3 fatty acids are a type of polyunsaturated fat that is essential for health. They play a crucial role in brain function, heart health, and overall well-being. There are three main types of omega-3 fatty acids: alpha-linolenic acid (ALA), eicosapentaenoic acid (EPA), and docosahexaenoic acid (DHA).",
+    "functions": {
+      "Heart Health": "Omega-3 fatty acids, particularly EPA and DHA, are beneficial for heart health. They help lower blood triglyceride levels, reduce inflammation, prevent blood clotting, and improve blood vessel function, reducing the risk of heart disease.",
+      "Brain Function": "Omega-3 fatty acids, especially DHA, are critical for brain development and function. They contribute to the structure of brain cell membranes, support nerve cell communication, and play a role in cognitive processes such as memory and learning.",
+      "Eye Health": "DHA is a major structural component of the retina in the eye, making omega-3 fatty acids essential for vision. Adequate intake of omega-3s may reduce the risk of age-related macular degeneration and dry eye syndrome.",
+      "Inflammatory Response": "Omega-3 fatty acids, particularly EPA, have anti-inflammatory properties and help regulate the body's inflammatory response. They may reduce symptoms of inflammatory conditions such as rheumatoid arthritis, inflammatory bowel disease, and asthma.",
+      "Pregnancy and Infant Development": "Omega-3 fatty acids are crucial during pregnancy and breastfeeding for fetal brain and eye development. Maternal intake of omega-3s, especially DHA, may benefit infant brain and visual development."
+    },
+    "sources": {
+      "Fatty Fish": "Fatty fish such as salmon, mackerel, sardines, trout, and herring are rich sources of EPA and DHA omega-3 fatty acids. Aim to include fatty fish in your diet at least twice a week to meet omega-3 needs.",
+      "Flaxseeds and Flaxseed Oil": "Flaxseeds and flaxseed oil are the richest plant-based sources of ALA omega-3 fatty acids. Ground flaxseeds can be added to smoothies, yogurt, oatmeal, or used in baking.",
+      "Chia Seeds": "Chia seeds are another excellent source of ALA omega-3 fatty acids. They can be soaked in water to form a gel-like consistency and used in puddings, beverages, or sprinkled on top of cereals and salads.",
+      "Walnuts": "Walnuts are a good source of ALA omega-3 fatty acids and can be eaten as a snack or added to salads, baked goods, or trail mix for a boost of healthy fats."
+    },
+    "dailyIntake": "The recommended intake of omega-3 fatty acids varies based on age, sex, and overall dietary pattern. For most adults, it is recommended to consume at least 250-500 milligrams of combined EPA and DHA omega-3s per day. Including a variety of omega-3-rich foods in your diet can help meet dietary needs.",
+    "deficiency": "Omega-3 fatty acid deficiency is relatively common, especially in populations with low fish consumption. Symptoms of omega-3 deficiency may include dry skin, hair loss, poor wound healing, cognitive impairment, and mood disturbances. Long-term deficiency may increase the risk of cardiovascular disease, inflammatory conditions, and mental health disorders.",
+    "overdose": "While omega-3 fatty acids offer numerous health benefits, consuming excessive amounts can lead to potential side effects such as an increased risk of bleeding, especially in individuals taking blood-thinning medications. Additionally, very high doses of omega-3 supplements may cause gastrointestinal issues such as diarrhea, nausea, and bloating. It's important to follow recommended dosage guidelines and consult with a healthcare professional before starting any omega-3 supplementation regimen, especially if you have underlying health conditions or are taking medications.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/",
+      "https://www.healthline.com/nutrition/omega-3-6-9-overview",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Omega-6 Fatty Acids",
+    "description": "Omega-6 fatty acids are a type of polyunsaturated fat that is essential for health. They play a crucial role in brain function, growth and development, and inflammation response.",
+    "functions": {
+      "Cell Membrane Structure": "Omega-6 fatty acids are important components of cell membranes, contributing to their structure and flexibility. They help regulate what passes in and out of cells, ensuring proper cellular function.",
+      "Inflammation Response": "Omega-6 fatty acids are precursors to signaling molecules called eicosanoids, which regulate inflammation, blood clotting, and immune response. While some inflammation is necessary for healing and defense against infection, excessive inflammation can lead to chronic diseases.",
+      "Skin Health": "Omega-6 fatty acids are vital for maintaining healthy skin and hair. They help regulate skin barrier function, prevent water loss, and reduce inflammation associated with skin conditions like eczema and psoriasis.",
+      "Hormone Production": "Omega-6 fatty acids are involved in the synthesis of hormones such as prostaglandins, which regulate various physiological processes including blood pressure, blood clotting, and immune response.",
+      "Brain Function": "Omega-6 fatty acids, particularly arachidonic acid, are essential for brain development and function. They contribute to the structure of brain cell membranes and support cognitive processes such as learning and memory."
+    },
+    "sources": {
+      "Plant Oils": "Omega-6 fatty acids are abundant in plant-based oils, including soybean oil, corn oil, sunflower oil, safflower oil, and cottonseed oil. These oils are commonly used in cooking, salad dressings, and food processing.",
+      "Nuts and Seeds": "Nuts and seeds, such as almonds, walnuts, pine nuts, pumpkin seeds, and sunflower seeds, are good sources of omega-6 fatty acids. They can be incorporated into snacks, baked goods, or sprinkled on salads and cereals.",
+      "Meat and Poultry": "Animal-based foods, including meat, poultry, and eggs, contain omega-6 fatty acids, primarily in the form of arachidonic acid. Including moderate amounts of lean meat and poultry in the diet can contribute to omega-6 intake.",
+      "Processed Foods": "Many processed and packaged foods contain oils high in omega-6 fatty acids, often as ingredients like soybean oil, corn oil, or sunflower oil. These foods include snacks, baked goods, fried foods, and convenience meals."
+    },
+    "dailyIntake": "The recommended intake of omega-6 fatty acids varies based on age, sex, and overall dietary pattern. However, it is generally recommended that omega-6 fatty acids contribute to around 5-10% of total daily calories. For most adults, this amounts to about 12-22 grams per day. Consuming a balanced diet with a variety of omega-6 sources can help meet dietary needs.",
+    "deficiency": "Omega-6 fatty acid deficiency is rare in healthy individuals with a balanced diet. However, inadequate intake of omega-6 fatty acids may lead to symptoms such as dry, itchy skin, hair loss, poor wound healing, and impaired immune function. Chronic deficiency may also increase the risk of inflammatory diseases and cognitive decline.",
+    "overdose": "Consuming too much omega-6 fatty acids relative to omega-3 fatty acids can promote inflammation in the body, which may contribute to chronic diseases such as heart disease, arthritis, and certain cancers. While omega-6 fatty acids are essential for health, an imbalance between omega-6 and omega-3 fatty acids can disrupt the body's inflammatory response and lead to adverse health effects. It's important to maintain a balanced ratio of omega-6 to omega-3 fatty acids by reducing intake of processed foods high in vegetable oils and increasing consumption of omega-3-rich foods such as fatty fish, flaxseeds, and walnuts.",
+    "res": [
+      "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/",
+      "https://www.healthline.com/nutrition/omega-3-6-9-overview#omega-6",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Protein",
+    "description": "Proteins are large, complex molecules that play many critical roles in the body. They are made up of amino acids and are essential for the structure, function, and regulation of the body's tissues and organs. Proteins are involved in various bodily functions, including catalyzing metabolic reactions, DNA replication, responding to stimuli, and transporting molecules.",
+    "functions": {
+      "Building and Repairing Tissues": "Proteins are necessary for the growth and repair of tissues. They are a major component of muscles, bones, skin, and blood.",
+      "Enzyme Production": "Proteins act as enzymes, which are catalysts that speed up biochemical reactions in the body. Enzymes are vital for digestion, energy production, blood clotting, and muscle contraction.",
+      "Hormone Regulation": "Some proteins function as hormones, which help regulate bodily functions. Examples include insulin, which regulates blood sugar levels, and thyroid hormones, which regulate metabolism.",
+      "Immune Function": "Proteins play a key role in the immune system by forming antibodies that help the body fight off infections.",
+      "Transport and Storage": "Proteins help transport and store molecules. Hemoglobin, a protein in red blood cells, transports oxygen throughout the body. Ferritin, another protein, stores iron."
+    },
+    "sources": {
+      "Animal Sources": "Animal-based foods such as meat, poultry, fish, eggs, and dairy products are complete protein sources, meaning they provide all essential amino acids the body needs.",
+      "Plant Sources": "Plant-based proteins can be found in beans, lentils, soy products, nuts, seeds, and whole grains. While some plant proteins may lack one or more essential amino acids, consuming a variety of plant proteins can provide a complete amino acid profile.",
+      "Protein Supplements": "Protein supplements, such as whey, casein, and plant-based powders, can help individuals meet their protein needs, especially athletes and those with higher protein requirements."
+    },
+    "dailyIntake": "The recommended daily intake of protein varies based on age, sex, and level of physical activity. The general recommendation is 0.8 grams of protein per kilogram of body weight for adults. For example, an adult who weighs 70 kg (154 lbs) should consume about 56 grams of protein per day. Higher protein intake may be necessary for athletes, pregnant and breastfeeding women, and older adults to maintain muscle mass and overall health.",
+    "deficiency": "Protein deficiency can lead to various health issues, including muscle wasting, weakened immune function, and edema. In severe cases, protein-energy malnutrition conditions such as kwashiorkor and marasmus can occur, particularly in children. Symptoms of protein deficiency include fatigue, hair loss, delayed wound healing, and loss of muscle mass.",
+    "overdose": "Consuming excessive amounts of protein, particularly from animal sources, can strain the kidneys and may increase the risk of kidney damage or dysfunction, especially in individuals with pre-existing kidney conditions. Additionally, high-protein diets may lead to dehydration, as the kidneys require more water to metabolize and excrete excess nitrogen from protein breakdown. Overconsumption of protein supplements can also cause gastrointestinal discomfort, including bloating, gas, and diarrhea. It's important to maintain a balanced diet and consult with a healthcare professional before significantly increasing protein intake.",
+    "res": [
+      "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/",
+      "https://www.medicalnewstoday.com/articles/196279",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Saturated Fat",
+    "description": "Saturated fat is a type of fat that is solid at room temperature. It is found in various foods, including animal products and some plant-based oils. Saturated fat has been associated with an increased risk of heart disease when consumed in excess.",
+    "functions": {
+      "Energy Source": "Saturated fat provides the body with energy, containing 9 calories per gram. It serves as a concentrated source of fuel for cellular activities and bodily functions.",
+      "Cell Membrane Structure": "Saturated fat is a component of cell membranes, contributing to their structure and stability. It helps maintain the integrity of cell membranes and regulates what substances can pass in and out of cells.",
+      "Hormone Production": "Saturated fat is involved in the synthesis of steroid hormones, including cortisol, aldosterone, estrogen, and testosterone. These hormones play important roles in metabolism, stress response, reproduction, and growth.",
+      "Vitamin Absorption": "Saturated fat is necessary for the absorption of fat-soluble vitamins (A, D, E, and K) in the intestine. It helps dissolve and transport these vitamins from the digestive tract to various tissues and organs.",
+      "Flavor and Texture": "Saturated fat contributes to the flavor, texture, and mouthfeel of foods. It enhances the palatability and sensory appeal of many dishes, particularly baked goods, dairy products, and fried foods."
+    },
+    "sources": {
+      "Animal Products": "Saturated fat is abundant in animal-based foods such as fatty cuts of meat, poultry skin, high-fat dairy products (whole milk, cheese, butter), lard, and fatty meats like bacon and sausage.",
+      "Processed Foods": "Many processed and packaged foods contain added saturated fat, often in the form of hydrogenated oils, palm oil, or coconut oil. These foods include baked goods, fried foods, snacks, processed meats, and convenience meals.",
+      "Coconut and Palm Oil": "Coconut oil and palm oil are plant-based sources of saturated fat. They are commonly used in cooking, baking, and food processing due to their stability at high temperatures and long shelf life.",
+      "Certain Plant Foods": "Some plant-based foods naturally contain saturated fat, including coconut, palm kernel, and cocoa butter. Nuts and seeds, such as macadamia nuts and chia seeds, also contain small amounts of saturated fat."
+    },
+    "dailyIntake": "Dietary guidelines recommend limiting saturated fat intake to less than 10% of total daily calories. For most adults, this amounts to no more than 22 grams of saturated fat per day in a 2,000-calorie diet. Consuming a diet low in saturated fat and replacing it with unsaturated fats (such as monounsaturated and polyunsaturated fats) can help reduce the risk of heart disease.",
+    "deficiency": "Saturated fat deficiency is not a recognized health concern because the body can produce saturated fat from other nutrients. However, consuming an excessive amount of saturated fat, especially in combination with a high-calorie diet and sedentary lifestyle, can contribute to weight gain, obesity, and cardiovascular disease.",
+    "overdose": "Excessive consumption of saturated fats can contribute to an increased risk of cardiovascular disease by raising levels of LDL (bad) cholesterol in the blood. Diets high in saturated fats may also lead to weight gain, insulin resistance, and inflammation, all of which are risk factors for heart disease and other chronic conditions. It's recommended to limit intake of saturated fats by choosing lean protein sources, opting for plant-based fats such as avocado and nuts, and reducing consumption of high-fat dairy products and fatty meats.",
+    "res": [
+      "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats",
+      "https://chatgpt.com/",
+      "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/saturated-fat/",
+      "https://www.nhs.uk/live-well/eat-well/eat-less-saturated-fat/"
+    ]
+  },
+  {
+    "name": "Sugar",
+    "description": "Sugar refers to a group of carbohydrates that are sweet-tasting and soluble in water. It is commonly added to foods and beverages for flavor enhancement, preservation, and texture. While sugars can provide quick energy, excessive consumption of added sugars can contribute to various health problems.",
+    "functions": {
+      "Energy Source": "Sugar provides a rapid source of energy for the body. It is broken down into glucose, which is absorbed into the bloodstream and used by cells for energy production.",
+      "Flavor Enhancement": "Sugar adds sweetness to foods and beverages, enhancing their palatability and enjoyment.",
+      "Preservation": "Sugar helps preserve foods by inhibiting microbial growth and extending shelf life. It is commonly used in jams, jellies, and canned fruits.",
+      "Texture Improvement": "In baking and confectionery products, sugar contributes to texture, moisture retention, and browning during cooking.",
+      "Emulsification": "Sugar aids in emulsification, helping to create smooth textures in products like ice cream and salad dressings."
+    },
+    "sources": {
+      "Natural Sources": "Natural sugars are found in fruits (fructose) and dairy products (lactose). These sources also provide essential nutrients, fiber, and water, which contribute to overall health.",
+      "Added Sugars": "Added sugars are sugars and syrups added to foods and beverages during processing or preparation. Common sources include sugar-sweetened beverages, candy, desserts, pastries, and processed foods.",
+      "Hidden Sugars": "Many processed foods contain hidden sugars, even those that may not taste sweet. These include condiments, sauces, salad dressings, and packaged snacks."
+    },
+    "dailyIntake": "The recommended intake of added sugars is limited to no more than 10% of total daily calories, according to dietary guidelines. For example, if consuming a 2,000-calorie diet, this would amount to no more than 200 calories or 50 grams of added sugars per day. However, it's important to prioritize natural sources of sugars from fruits and limit intake of foods and beverages high in added sugars.",
+    "deficiency": "Sugar deficiency, in the context of added sugars, is not a recognized health concern. However, excessive consumption of added sugars can contribute to weight gain, obesity, type 2 diabetes, heart disease, and dental cavities.",
+    "overdose": "Overconsumption of sugar can lead to various health issues, including weight gain, obesity, type 2 diabetes, and dental problems. Excessive sugar intake can also contribute to inflammation, insulin resistance, and an increased risk of heart disease. Consuming too much sugar on a regular basis may lead to energy crashes, mood swings, and nutrient deficiencies. It's important to limit intake of added sugars found in processed foods, sugary beverages, and sweets to maintain overall health and well-being.",
+    "res": [
+      "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/added-sugars",
+      "https://www.hsph.harvard.edu/nutritionsource/healthy-drinks/sugary-drinks/",
+      "https://chatgpt.com/"
+    ]
+  },
+  {
+    "name": "Trans Fat",
+    "description": "Trans fat, also known as trans-fatty acids, are a type of unsaturated fat that occur naturally in small amounts in some foods, but are primarily produced through the hydrogenation of vegetable oils. Trans fat has been linked to an increased risk of heart disease when consumed in excess.",
+    "functions": {
+      "Energy Source": "Trans fat provides the body with energy, containing 9 calories per gram. It serves as a concentrated source of fuel for cellular activities and bodily functions, similar to other fats.",
+      "Food Texture and Flavor": "Trans fat contributes to the texture, flavor, and mouthfeel of processed foods. It enhances the palatability and shelf life of foods like baked goods, fried foods, margarine, and processed snacks.",
+      "Food Processing": "Trans fat is commonly used in food processing and manufacturing due to its stability at high temperatures and long shelf life. It helps improve the texture, consistency, and appearance of various food products.",
+      "Preservative": "Trans fat acts as a preservative in some food products, extending their shelf life and reducing the risk of spoilage. It helps maintain the freshness and quality of packaged and processed foods over time."
+    },
+    "sources": {
+      "Partially Hydrogenated Oils": "The primary source of artificial trans fat in the diet is partially hydrogenated oils, which are produced through an industrial process that adds hydrogen to liquid vegetable oils to make them solid at room temperature. Partially hydrogenated oils are used in many processed and packaged foods, including margarine, shortening, baked goods, fried foods, and snack foods.",
+      "Animal Products": "Small amounts of naturally occurring trans fat can be found in animal-based foods such as meat and dairy products, but these contribute less to overall trans fat intake compared to processed foods.",
+      "Fried Foods": "Foods that are fried or deep-fried in partially hydrogenated oils may contain significant amounts of trans fat. These include fried chicken, French fries, doughnuts, and other fried snacks.",
+      "Processed Foods": "Many processed and packaged foods contain added trans fat in the form of partially hydrogenated oils or hydrogenated fats. These foods include baked goods, snack foods, frozen dinners, microwave popcorn, and margarine."
+    },
+    "dailyIntake": "Dietary guidelines recommend minimizing trans fat intake as much as possible due to its detrimental effects on health. The World Health Organization (WHO) recommends that trans fat intake be limited to less than 1% of total energy intake, which is equivalent to less than 2 grams of trans fat per day in a 2,000-calorie diet. In many countries, efforts have been made to reduce or eliminate trans fat from the food supply through regulations and industry initiatives.",
+    "deficiency": "Trans fat deficiency is not a recognized health concern because the body does not require trans fat for essential physiological functions. In fact, reducing trans fat intake is associated with improved cardiovascular health and reduced risk of chronic diseases.",
+    "overdose": "Consuming excessive amounts of trans fats can increase the risk of various health problems, including cardiovascular disease. Trans fat overdose may lead to elevated levels of LDL (bad) cholesterol and decreased levels of HDL (good) cholesterol, contributing to the development of heart disease and stroke. Additionally, trans fats have been linked to inflammation, insulin resistance, and other metabolic disorders. It's recommended to limit intake of trans fats by avoiding processed foods, fried foods, and commercially baked goods that contain partially hydrogenated oils.",
+    "res": [
+      "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat",
+      "https://chatgpt.com/",
+      "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/transfats/"
+    ]
+  },
+  {
+    "name": "Water",
+    "description": "Water is a vital substance that is essential for life. It makes up a significant portion of the human body and is involved in numerous physiological processes. Water is required for hydration, nutrient transport, temperature regulation, waste removal, and many other functions.",
+    "functions": {
+      "Hydration": "Water is the primary component of body fluids, including blood, lymph, and digestive juices. It helps maintain fluid balance in the body and prevents dehydration, which can lead to fatigue, dizziness, and other health problems.",
+      "Nutrient Transport": "Water serves as a medium for transporting nutrients, such as carbohydrates, proteins, fats, vitamins, and minerals, to cells throughout the body. It facilitates the absorption and distribution of nutrients essential for growth, repair, and energy production.",
+      "Temperature Regulation": "Water plays a crucial role in regulating body temperature through processes like sweating and evaporation. It helps dissipate heat generated during physical activity or in response to high environmental temperatures, preventing overheating and heat-related illnesses.",
+      "Digestion and Waste Removal": "Water is necessary for the digestion and absorption of food in the gastrointestinal tract. It softens and liquefies food, aids in the breakdown of nutrients, and facilitates the passage of waste products through the intestines for excretion.",
+      "Joint Lubrication": "Water provides lubrication to joints, cartilage, and connective tissues, reducing friction and cushioning against impact. It helps maintain joint flexibility and mobility, preventing discomfort and stiffness."
+    },
+    "sources": {
+      "Drinking Water": "The primary source of water for humans is drinking water obtained from various sources, including tap water, bottled water, and filtered water. It is important to consume an adequate amount of clean, safe drinking water each day to meet hydration needs.",
+      "Food": "Many foods, particularly fruits and vegetables, contain high water content and contribute to overall hydration. Foods like cucumbers, watermelon, oranges, strawberries, and lettuce are excellent sources of dietary water.",
+      "Beverages": "In addition to water, other beverages like herbal teas, fruit juices, milk, and sports drinks can contribute to hydration. However, it's important to choose beverages without added sugars or excessive caffeine, which can have negative effects on health.",
+      "Metabolic Processes": "Water is produced as a byproduct of metabolic processes in the body, such as cellular respiration and oxidation of macronutrients. While metabolic water contributes to overall hydration, it is not a significant source compared to fluid intake."
+    },
+    "dailyIntake": "The recommended daily intake of water varies based on age, sex, body weight, physical activity level, climate, and other factors. However, a general guideline is to consume about 8 glasses (64 ounces) of water per day for adults, although individual needs may vary. Thirst, urine color, and urine frequency can be indicators of hydration status.",
+    "deficiency": "Dehydration occurs when the body loses more water than it takes in, leading to an imbalance in fluid levels. Mild dehydration can cause symptoms like thirst, dry mouth, fatigue, and dark urine. Severe dehydration can be life-threatening and may require medical intervention.",
+    "overdose": "Overhydration, or drinking too much water, can lead to a condition known as water intoxication or hyponatremia. This occurs when the balance of electrolytes in the body, particularly sodium, is disrupted by an excess of water. Symptoms of water overdose may include nausea, vomiting, headaches, confusion, seizures, and in severe cases, coma or death. It's essential to drink water in moderation and pay attention to your body's thirst signals.",
+    "res": [
+      "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256",
+      "https://chatgpt.com/",
+      "https://www.nhs.uk/live-well/eat-well/water-drinks-nutrition/"
+    ]
+  }
+]
