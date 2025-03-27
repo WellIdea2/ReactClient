@@ -3,39 +3,46 @@ import Login from "../features/auth/Login";
 import Register from "../features/auth/Register";
 import HomePage from "../features/home/HomePage";
 import NutrientInfo from "../features/nutrition-info/NutrientInfo";
-import ProtectedRoute from "./guards/ProtectedRoute";
-import PublicRoute from "./guards/PublicRoute";
+import { Paths } from "../utils/constants";
+import AuthGuard from "./guards/AuthGuard";
+import GuestGuard from "./guards/GuestGuard";
+import PublicGuard from "./guards/PublicGuard";
 
 export const appRouter = createBrowserRouter([
   {
     element: <HomePage />,
     children: [
       {
-        element: <PublicRoute />,
+        element: <GuestGuard />,
         children: [
           {
-            path: "/login",
+            path: Paths.LOGIN,
             element: <Login />,
             index: true,
           },
           {
-            path: "/register",
+            path: Paths.REGISTER,
             element: <Register />,
-            index: true,
-          },
-          {
-            path: "/nutrition-info",
-            element: <NutrientInfo />,
             index: true,
           },
         ],
       },
       {
-        element: <ProtectedRoute />,
+        element: <AuthGuard />,
         children: [
           {
-            path: "/",
+            path: Paths.HOME,
             element: <h1>Protected Route</h1>,
+            index: true,
+          },
+        ],
+      },
+      {
+        element: <PublicGuard />,
+        children: [
+          {
+            path: Paths.NUTRITION_INFO,
+            element: <NutrientInfo />,
             index: true,
           },
         ],

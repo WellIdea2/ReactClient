@@ -1,6 +1,7 @@
-import { ReactNode, useMemo, useState } from "react";
+import { ReactNode, useEffect, useMemo, useState } from "react";
+import { useGetUserByIdQuery } from "../../hooks/user/useGetUserByIdQuery";
 import { AccessTokenView } from "../../types/auth/Auth";
-import { UserRole, UserView } from "../../types/user/User";
+import { UserRole } from "../../types/user/User";
 import { getJwtExpiry, getUserFromJwt } from "../../utils/jwt/jwt-decoder";
 import {
   getAccessTokenFromLocalStorage,
@@ -10,10 +11,11 @@ import {
 import { UserAuthContext } from "./UserAuthContext";
 
 export const UserAuthProvider = ({ children }: { children: ReactNode }) => {
-  const [user, setUser] = useState<UserView | undefined>(() => {
+  const [userId, setUserId] = useState<string | undefined>(() => {
     const accessToken: AccessTokenView | null = getAccessTokenFromLocalStorage();
     if (accessToken) {
-      return getUserFromJwt(accessToken.token)!;
+      const user = getUserFromJwt(accessToken.token);
+      return user?.id;
     }
     return undefined;
   });
@@ -27,21 +29,29 @@ export const UserAuthProvider = ({ children }: { children: ReactNode }) => {
     return false;
   });
 
+  const { data: user, error } = useGetUserByIdQuery(userId);
+
   const isAdmin = useMemo(() => user?.role === UserRole.ADMIN, [user?.role]);
 
   const login = (accessToken: AccessTokenView) => {
     setAccessTokenInLocalStorage(accessToken);
     const userData = getUserFromJwt(accessToken.token);
     const expiry = getJwtExpiry(accessToken.token);
-    setUser(userData!);
+    setUserId(userData?.id);
     setIsUserAuthenticated(expiry ? expiry > new Date() : false);
   };
 
   const logout = () => {
     removeAccessTokenFromLocalStorage();
-    setUser(undefined);
+    setUserId(undefined);
     setIsUserAuthenticated(false);
   };
+
+  useEffect(() => {
+    if (error) {
+      logout();
+    }
+  }, [error]);
 
   return (
     <UserAuthContext.Provider

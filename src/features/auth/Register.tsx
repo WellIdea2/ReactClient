@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import * as z from "zod";
 import useRegisterUserMutation from "../../hooks/auth/useRegisterUserMutation";
 import { UserCreateRequest } from "../../types/user/User";
+import { Paths } from "../../utils/constants";
 
 const schema = z.object({
   email: z
@@ -119,7 +120,7 @@ function Register() {
           <Link
             component="span"
             variant="body2"
-            onClick={() => navigate("/login")}
+            onClick={() => navigate(Paths.LOGIN)}
             sx={{ textDecoration: "underline", cursor: "pointer" }}
           >
             Login

@@ -1,9 +1,19 @@
 import { Info, Login } from "@mui/icons-material";
-import { Box, Drawer, Typography } from "@mui/material";
-import { useNavigate } from "react-router";
+import { Box, Drawer, Typography, styled } from "@mui/material";
+import { useLocation, useNavigate } from "react-router";
 import { useAuth } from "../../hooks/auth/useAuth";
+import { Paths } from "../../utils/constants";
 
 const drawerWidth = 240;
+
+const MenuItem = styled(Box)(({ theme }) => ({
+  display: "flex",
+  alignItems: "center",
+  gap: theme.spacing(1),
+  padding: theme.spacing(1),
+  cursor: "pointer",
+  borderRadius: theme.shape.borderRadius,
+}));
 
 interface SideBarProps {
   drawerOpen: boolean;
@@ -11,7 +21,10 @@ interface SideBarProps {
 
 function SideBar({ drawerOpen }: SideBarProps) {
   const navigate = useNavigate();
+  const location = useLocation();
   const { isUserAuthenticated } = useAuth();
+
+  const isActive = (path: string) => location.pathname === path;
 
   return (
     <Drawer
@@ -36,21 +49,21 @@ function SideBar({ drawerOpen }: SideBarProps) {
           Floxie
         </Typography>
         {/* Operations Section */}
-        <Box
-          sx={{ display: "flex", alignItems: "center", gap: 1, p: 1, cursor: "pointer" }}
-          onClick={() => navigate("/nutrition-info")} // Navigate to /nutrition-info
+        <MenuItem
+          color={isActive(Paths.NUTRITION_INFO) ? "primary.main" : "inherit"}
+          onClick={() => navigate(Paths.NUTRITION_INFO)}
         >
           <Info />
           <Typography variant="body1">Nutrition Info</Typography>
-        </Box>
+        </MenuItem>
         {!isUserAuthenticated && (
-          <Box
-            sx={{ display: "flex", alignItems: "center", gap: 1, p: 1, cursor: "pointer" }}
-            onClick={() => navigate("/login")}
+          <MenuItem
+            color={isActive(Paths.LOGIN) ? "primary.main" : "inherit"}
+            onClick={() => navigate(Paths.LOGIN)}
           >
             <Login />
             <Typography variant="body1">Login</Typography>
-          </Box>
+          </MenuItem>
         )}
       </Box>
     </Drawer>
