@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Box, Button, CircularProgress, Link, TextField, Typography } from "@mui/material";
+import { AxiosError } from "axios";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router";
 import { toast } from "react-toastify";
@@ -30,8 +31,16 @@ function Login() {
         toast.success("Login successful.");
         navigate("/home");
       },
-      onError: () => {
-        toast.error("Invalid email or password.");
+      onError: (error) => {
+        if (error instanceof AxiosError) {
+          if (error.response?.status === 404) {
+            toast.error("Invalid email or password.");
+          } else if (error.response?.status === 503) {
+            toast.error("Service unavailable at the moment!");
+          } else {
+            toast.error("An error occurred!");
+          }
+        }
       },
     });
   };
