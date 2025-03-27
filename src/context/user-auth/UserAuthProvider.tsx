@@ -1,5 +1,7 @@
 import { ReactNode, useEffect, useMemo, useState } from "react";
+import { useGetUserDetailsProfileQuery } from "../../hooks/user-details/useGetUserDetailsProfileQuery";
 import { useGetUserByIdQuery } from "../../hooks/user/useGetUserByIdQuery";
+import { queryClient } from "../../services/config/queryClient";
 import { AccessTokenView } from "../../types/auth/Auth";
 import { UserRole } from "../../types/user/User";
 import { getJwtExpiry, getUserFromJwt } from "../../utils/jwt/jwt-decoder";
@@ -29,7 +31,9 @@ export const UserAuthProvider = ({ children }: { children: ReactNode }) => {
     return false;
   });
 
-  const { data: user, error } = useGetUserByIdQuery(userId);
+  const { data: user, error, isSuccess } = useGetUserByIdQuery(userId);
+
+  const { data: userDetail } = useGetUserDetailsProfileQuery(isSuccess);
 
   const isAdmin = useMemo(() => user?.role === UserRole.ADMIN, [user?.role]);
 
@@ -44,6 +48,7 @@ export const UserAuthProvider = ({ children }: { children: ReactNode }) => {
   const logout = () => {
     removeAccessTokenFromLocalStorage();
     setUserId(undefined);
+    queryClient.clear();
     setIsUserAuthenticated(false);
   };
 
@@ -57,6 +62,7 @@ export const UserAuthProvider = ({ children }: { children: ReactNode }) => {
     <UserAuthContext.Provider
       value={{
         user,
+        userDetail,
         login,
         logout,
         isUserAuthenticated,

@@ -1,47 +1,51 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Box, Button, CircularProgress, Link, TextField, Typography } from "@mui/material";
-import { AxiosError } from "axios";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router";
 import { toast } from "react-toastify";
 import * as z from "zod";
-import useLoginUserMutation from "../../hooks/auth/useLoginUserMutation";
-import { AuthenticationRequest } from "../../types/auth/Auth";
-import { Paths } from "../../utils/constants";
+import useRegisterUserMutation from "../../../hooks/auth/useRegisterUserMutation";
+import { UserCreateRequest } from "../../../types/user/User";
+import { Paths } from "../../../utils/constants";
 
 const schema = z.object({
-  email: z.string().email({ message: "Invalid email address" }),
-  password: z.string().nonempty({ message: "Password is required" }),
+  email: z
+    .string()
+    .email({ message: "Email should be valid" })
+    .nonempty({ message: "Email cannot be blank" }),
+  username: z
+    .string()
+    .min(4, { message: "Username must be at least 4 characters long" })
+    .nonempty({ message: "Username cannot be blank" }),
+  password: z
+    .string()
+    .min(8, { message: "Password must be at least 8 characters long" })
+    .max(30, { message: "Password must not exceed 30 characters" })
+    .regex(/[A-Z]/, { message: "Password must contain at least one uppercase letter" })
+    .regex(/[0-9]/, { message: "Password must contain at least one digit" })
+    .regex(/[!@#$%^&*()_+]/, {
+      message: "Password must contain at least one special character (!@#$%^&*()_+)",
+    })
+    .refine((password) => !/\s/.test(password), { message: "Password cannot contain whitespace" }),
 });
 
-function Login() {
+function Register() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<AuthenticationRequest>({
+  } = useForm<UserCreateRequest>({
     resolver: zodResolver(schema),
   });
 
   const navigate = useNavigate();
-  const { isPending, mutateAsync } = useLoginUserMutation();
+  const { isPending, mutateAsync } = useRegisterUserMutation();
 
-  const onSubmit = (data: AuthenticationRequest) => {
+  const onSubmit = (data: UserCreateRequest) => {
     mutateAsync(data, {
       onSuccess: () => {
-        toast.success("Login successful.");
-        navigate("/home");
-      },
-      onError: (error) => {
-        if (error instanceof AxiosError) {
-          if (error.response?.status === 404) {
-            toast.error("Invalid email or password.");
-          } else if (error.response?.status === 503) {
-            toast.error("Service unavailable at the moment!");
-          } else {
-            toast.error("An error occurred!");
-          }
-        }
+        toast.success("Registration successful. Please log in.");
+        navigate("/login");
       },
     });
   };
@@ -63,7 +67,7 @@ function Login() {
         sx={{ width: "100%", maxWidth: "50%", p: 2 }}
       >
         <Typography variant="h4" align="center" component={"p"}>
-          Welcome to Floxie!
+          Create an Account
         </Typography>
 
         <TextField
@@ -75,6 +79,17 @@ function Login() {
           {...register("email")}
           error={!!errors.email}
           helperText={errors.email?.message}
+        />
+
+        <TextField
+          label="Username"
+          variant="filled"
+          fullWidth
+          required
+          sx={{ my: 1 }}
+          {...register("username")}
+          error={!!errors.username}
+          helperText={errors.username?.message}
         />
 
         <TextField
@@ -97,18 +112,18 @@ function Login() {
           sx={{ my: 1 }}
           disabled={isPending}
         >
-          {isPending ? <CircularProgress color="inherit" size={24} /> : "Login"}
+          {isPending ? <CircularProgress color="inherit" size={24} /> : "Register"}
         </Button>
 
         <Typography align="center" sx={{ mt: 2 }}>
-          Don't have an account?{" "}
+          Already have an account?{" "}
           <Link
             component="span"
             variant="body2"
-            onClick={() => navigate(Paths.REGISTER)}
+            onClick={() => navigate(Paths.LOGIN)}
             sx={{ textDecoration: "underline", cursor: "pointer" }}
           >
-            Sign up
+            Login
           </Link>
         </Typography>
       </Box>
@@ -116,4 +131,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;

@@ -1,8 +1,10 @@
 import { Brightness4, Brightness7, Menu } from "@mui/icons-material";
 import { Avatar, Box, MenuItem, Menu as MuiMenu, useTheme } from "@mui/material";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import { useAuth } from "../../hooks/auth/useAuth";
 import { useDarkWhiteTheme } from "../../hooks/custom/useDarkWhiteTheme";
+import { Paths } from "../../utils/constants";
 import StyledIconButton from "../shared/StyledIconButton";
 
 interface NavBarProps {
@@ -13,6 +15,7 @@ function NavBar({ handleDrawerToggle }: NavBarProps) {
   const { isUserAuthenticated, logout } = useAuth();
   const { isDarkMode, setLightMode, setDarkMode } = useDarkWhiteTheme();
   const theme = useTheme();
+  const navigate = useNavigate();
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const isMenuOpen = Boolean(anchorEl);
@@ -37,6 +40,11 @@ function NavBar({ handleDrawerToggle }: NavBarProps) {
 
   const handleLogout = () => {
     logout();
+    handleMenuClose();
+  };
+
+  const handleProfileClick = () => {
+    navigate(Paths.USER_PROFILE);
     handleMenuClose();
   };
 
@@ -78,7 +86,7 @@ function NavBar({ handleDrawerToggle }: NavBarProps) {
       >
         <MenuItem disabled>Username: John Doe</MenuItem>
         <MenuItem disabled>Email: johndoe@example.com</MenuItem>
-        <MenuItem onClick={() => console.log("View Profile clicked")}>View Profile</MenuItem>
+        <MenuItem onClick={handleProfileClick}>View Profile</MenuItem>
         <MenuItem onClick={handleLogout}>Logout</MenuItem>
       </MuiMenu>
     </Box>
