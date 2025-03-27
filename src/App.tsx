@@ -5,16 +5,13 @@ import "@fontsource/roboto/700.css";
 
 import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import InterceptorProvider from "./context/InterceptorProvider";
-import { appRouter } from "./routes/Router";
 import ThemeProvider from "./context/theme/ThemeProvider";
+import { appRouter } from "./routes/Router";
 
 function App() {
   return (
     <ThemeProvider>
-      <InterceptorProvider>
-        <RouterProvider router={appRouter} />
-      </InterceptorProvider>
+      <RouterProvider router={appRouter} />
     </ThemeProvider>
   );
 }

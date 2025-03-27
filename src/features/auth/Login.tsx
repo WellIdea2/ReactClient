@@ -1,12 +1,10 @@
-import { useState } from "react";
+import { Box, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import { Typography, Box, useTheme } from "@mui/material";
-import NavBar from "../shared/NavBar";
+import { useState } from "react";
 
-function WelcomePage() {
+function Login() {
   const [isLogin, setIsLogin] = useState(true);
-  const theme = useTheme();
 
   const handleButtonClick = () => {
     // handle form submit event here
@@ -20,15 +18,12 @@ function WelcomePage() {
 
   return (
     <>
-      <NavBar />
       <Box
         sx={{
           display: "flex",
           flexDirection: "column",
-          minHeight: "100vh",
           width: "100%",
-          bgcolor: theme.palette.background.default,
-          color: theme.palette.text.primary,
+          height: "100%",
           alignItems: "center",
           justifyContent: "center",
         }}
@@ -84,4 +79,4 @@ function WelcomePage() {
   );
 }
 
-export default WelcomePage;
+export default Login;
