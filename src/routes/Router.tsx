@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Login from "../features/auth/Login";
+import Register from "../features/auth/Register";
 import HomePage from "../features/home/HomePage";
 import ProtectedRoute from "./guards/ProtectedRoute";
 import PublicRoute from "./guards/PublicRoute";
@@ -12,8 +13,13 @@ export const appRouter = createBrowserRouter([
         element: <PublicRoute />,
         children: [
           {
-            path: "/",
+            path: "/login",
             element: <Login />,
+            index: true,
+          },
+          {
+            path: "/register",
+            element: <Register />,
             index: true,
           },
         ],

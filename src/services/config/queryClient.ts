@@ -6,8 +6,8 @@ import { BadRequestBody, NotFoundErrorBody } from "../../types/shared/Errors";
 export const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 1000 * 60 * 50, // 50 minutes
-      gcTime: 1000 * 60 * 60, // 1 hour
+      staleTime: 1000 * 60 * 50,
+      gcTime: 1000 * 60 * 60,
     },
   },
   mutationCache: new MutationCache({
@@ -27,6 +27,8 @@ export const queryClient = new QueryClient({
           toast.error("Unauthorized!");
         } else if (error.response?.status === 403) {
           toast.error("Forbidden!");
+        } else if (error.response?.status === 503) {
+          toast.error("Service unavailable at the moment!");
         } else {
           toast.error("An error occurred!");
         }
