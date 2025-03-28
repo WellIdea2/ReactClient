@@ -9,7 +9,7 @@ const useEditUserDetailsMutation = () => {
   return useMutation<UserDetailsView, unknown, { id: string; userData: UserDetailsEditRequest }>({
     mutationFn: ({ id, userData }) => editUserDetails(id, userData),
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: [ReactQueryKeys.USER_DETAILS_PROFILE] });
+      queryClient.invalidateQueries({ queryKey: [ReactQueryKeys.USER_DETAILS] });
     },
   });
 };

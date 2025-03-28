@@ -5,7 +5,7 @@ import { ReactQueryKeys } from "../../utils/constants";
 
 export const useGetUserDetailsProfileQuery = (enabled: boolean) => {
   return useQuery<UserDetailsView>({
-    queryKey: ReactQueryKeys.USER_DETAILS_PROFILE,
+    queryKey: ReactQueryKeys.USER_DETAILS_ME(),
     queryFn: getUserDetailsProfile,
     enabled,
   });

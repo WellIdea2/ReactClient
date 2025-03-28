@@ -12,7 +12,7 @@ interface NavBarProps {
 }
 
 function NavBar({ handleDrawerToggle }: NavBarProps) {
-  const { isUserAuthenticated, logout } = useAuth();
+  const { isUserAuthenticated, logout, user } = useAuth();
   const { isDarkMode, setLightMode, setDarkMode } = useDarkWhiteTheme();
   const theme = useTheme();
   const navigate = useNavigate();
@@ -71,24 +71,26 @@ function NavBar({ handleDrawerToggle }: NavBarProps) {
           </StyledIconButton>
         )}
       </Box>
-      <MuiMenu
-        anchorEl={anchorEl}
-        open={isMenuOpen}
-        onClose={handleMenuClose}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "right",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "right",
-        }}
-      >
-        <MenuItem disabled>Username: John Doe</MenuItem>
-        <MenuItem disabled>Email: johndoe@example.com</MenuItem>
-        <MenuItem onClick={handleProfileClick}>View Profile</MenuItem>
-        <MenuItem onClick={handleLogout}>Logout</MenuItem>
-      </MuiMenu>
+      {user && (
+        <MuiMenu
+          anchorEl={anchorEl}
+          open={isMenuOpen}
+          onClose={handleMenuClose}
+          anchorOrigin={{
+            vertical: "bottom",
+            horizontal: "right",
+          }}
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
+        >
+          <MenuItem disabled>Username: {user.username}</MenuItem>
+          <MenuItem disabled>Email: {user.email}</MenuItem>
+          <MenuItem onClick={handleProfileClick}>View Profile</MenuItem>
+          <MenuItem onClick={handleLogout}>Logout</MenuItem>
+        </MuiMenu>
+      )}
     </Box>
   );
 }

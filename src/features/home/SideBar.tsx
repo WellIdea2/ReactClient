@@ -56,13 +56,15 @@ function SideBar({ drawerOpen }: SideBarProps) {
           <Info />
           <Typography variant="body1">Nutrition Info</Typography>
         </MenuItem>
-        <MenuItem
-          color={isActive(Paths.NUTRI_BUDDY) ? "primary.main" : "inherit"}
-          onClick={() => navigate(Paths.NUTRI_BUDDY)}
-        >
-          <RestaurantMenu />
-          <Typography variant="body1">NutriBuddy</Typography>
-        </MenuItem>
+        {isUserAuthenticated && (
+          <MenuItem
+            color={isActive(Paths.NUTRI_BUDDY) ? "primary.main" : "inherit"}
+            onClick={() => navigate(Paths.NUTRI_BUDDY)}
+          >
+            <RestaurantMenu />
+            <Typography variant="body1">NutriBuddy</Typography>
+          </MenuItem>
+        )}
         {!isUserAuthenticated && (
           <MenuItem
             color={isActive(Paths.LOGIN) ? "primary.main" : "inherit"}

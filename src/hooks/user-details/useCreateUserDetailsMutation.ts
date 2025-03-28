@@ -9,7 +9,7 @@ const useCreateUserDetailsMutation = () => {
   return useMutation<UserDetailsView, unknown, UserDetailsCreateRequest>({
     mutationFn: (userDetails: UserDetailsCreateRequest) => createUserDetails(userDetails),
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: [ReactQueryKeys.USER_DETAILS_PROFILE] });
+      queryClient.invalidateQueries({ queryKey: [ReactQueryKeys.USER_DETAILS] });
     },
   });
 };

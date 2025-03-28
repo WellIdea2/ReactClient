@@ -1,7 +1,6 @@
-
-import { UserCreateRequest, UserEditRequest, UserFilter, UserView } from '../../types/user/User';
-import instance from '../config/axiosConfig';
-import { userPaths } from './userPaths';
+import { UserCreateRequest, UserEditRequest, UserFilter, UserView } from "../../types/user/User";
+import instance from "../config/axiosConfig";
+import { userPaths } from "./userPaths";
 
 export async function getAllUsers(page: number, size: number, filter: UserFilter) {
   const response = await instance.get<UserView[]>(userPaths.GET_ALL(), {
@@ -28,15 +27,12 @@ export async function editUser(id: string, userData: UserEditRequest) {
 
   return response.data;
 }
-
-export async function deleteUser(id: string) {
-  const response = await instance.delete(userPaths.DELETE(id));
-
-  return response;
+export async function deleteUser(id: string): Promise<void> {
+  await instance.delete(userPaths.DELETE(id));
 }
 
 export async function getUserProfile() {
   const response = await instance.get<UserView>(userPaths.ME());
-  
+
   return response.data;
 }
