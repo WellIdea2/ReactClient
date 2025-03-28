@@ -14,4 +14,5 @@ export const Paths = {
   NUTRITION_INFO: "/nutrition-info",
   USER_PROFILE: "/user-profile",
   NUTRI_BUDDY: "/nutri-buddy",
+  All_USERS: "/all-users",
 };

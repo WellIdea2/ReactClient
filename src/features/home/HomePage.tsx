@@ -1,8 +1,8 @@
 import { Box, useTheme } from "@mui/material";
 import { useState } from "react";
-import MainBody from "./MainBody";
-import NavBar from "./NavBar";
-import SideBar from "./SideBar";
+import { Outlet } from "react-router";
+import NavBar from "./nav-bar/NavBar";
+import SideBar from "./side-bar/SideBar";
 
 function HomePage() {
   const theme = useTheme();
@@ -35,7 +35,9 @@ function HomePage() {
         }}
       >
         <NavBar handleDrawerToggle={handleDrawerToggle} />
-        <MainBody />
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <Outlet />
+        </Box>
       </Box>
     </Box>
   );
