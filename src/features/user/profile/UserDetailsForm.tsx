@@ -12,13 +12,12 @@ import { useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { z } from "zod";
-import { useAuth } from "../../../hooks/auth/useAuth";
 import useCreateUserDetailsMutation from "../../../hooks/user-details/useCreateUserDetailsMutation";
 import useEditUserDetailsMutation from "../../../hooks/user-details/useEditUserDetailsMutation";
 import { useDeleteUserMutation } from "../../../hooks/user/useDeleteUserMutation";
 import { useEditUserMutation } from "../../../hooks/user/useEditUserMutation";
-import { Gender, WorkoutState } from "../../../types/user-details/UserDetails";
-import { UserRole } from "../../../types/user/User";
+import { Gender, UserDetailsView, WorkoutState } from "../../../types/user-details/UserDetails";
+import { UserRole, UserView } from "../../../types/user/User";
 
 const userDetailsSchema = z.object({
   username: z.string().min(4, "Username must be at least 4 characters"),
@@ -41,8 +40,12 @@ const userDetailsSchema = z.object({
 
 type UserDetailsFormValues = z.infer<typeof userDetailsSchema>;
 
-const UserDetailsForm = () => {
-  const { userDetail, user } = useAuth();
+interface UserDetailsFormProps {
+  userDetail: UserDetailsView | undefined;
+  user: UserView | undefined;
+}
+
+const UserDetailsForm = ({ userDetail, user }: UserDetailsFormProps) => {
   const {
     control,
     handleSubmit,
@@ -52,11 +55,11 @@ const UserDetailsForm = () => {
     defaultValues: {
       username: "",
       email: "",
-      role: user?.role || UserRole.USER,
+      role: UserRole.USER,
       kilograms: 0,
       height: 0,
-      workoutState: userDetail?.workoutState || WorkoutState.SEDENTARY,
-      gender: userDetail?.gender || Gender.MALE,
+      workoutState: WorkoutState.SEDENTARY,
+      gender: Gender.MALE,
       age: 0,
     },
     resolver: zodResolver(userDetailsSchema),
@@ -143,17 +146,16 @@ const UserDetailsForm = () => {
 
   return (
     <Box component="form" onSubmit={handleSubmit(onSubmit)} mx={3} my={5}>
-      {/* Email | Role */}
       <Box display="flex" gap={2} marginBottom={2}>
         <Controller
           name="email"
           control={control}
-          disabled
           render={({ field }) => (
             <TextField
               {...field}
               label="Email"
               type="email"
+              disabled
               fullWidth
               margin="normal"
               error={!!errors.email}
@@ -164,12 +166,12 @@ const UserDetailsForm = () => {
         <Controller
           name="role"
           control={control}
-          disabled
           render={({ field }) => (
             <TextField
               {...field}
               label="Role"
               fullWidth
+              disabled
               margin="normal"
               error={!!errors.role}
               helperText={errors.role?.message}
@@ -178,7 +180,6 @@ const UserDetailsForm = () => {
         />
       </Box>
 
-      {/* Username | Age */}
       <Box display="flex" gap={2} marginBottom={2}>
         <Controller
           name="username"
@@ -206,8 +207,9 @@ const UserDetailsForm = () => {
               margin="normal"
               error={!!errors.age}
               helperText={errors.age?.message}
+              value={field.value || 0}
               onChange={(e) => {
-                const value = e.target.value === "" ? 0 : parseFloat(e.target.value);
+                const value = e.target.value === "" ? null : parseFloat(e.target.value);
                 field.onChange(value);
               }}
             />
@@ -215,7 +217,6 @@ const UserDetailsForm = () => {
         />
       </Box>
 
-      {/* Kilograms | Height */}
       <Box display="flex" gap={2} marginBottom={2}>
         <Controller
           name="kilograms"
@@ -267,7 +268,6 @@ const UserDetailsForm = () => {
         />
       </Box>
 
-      {/* Workout State | Gender */}
       <Box display="flex" gap={2} marginBottom={2}>
         <Controller
           name="workoutState"
@@ -315,7 +315,6 @@ const UserDetailsForm = () => {
         />
       </Box>
 
-      {/* Submit and Delete Buttons */}
       <Box display="flex" gap={2} justifyContent="flex-end" mt={3}>
         <Button variant="outlined" color="primary" type="submit" disabled={disableSubmitButton}>
           {isEditUserPending || isEditDetailsPending || isCreatePending ? (
